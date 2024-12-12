@@ -205,6 +205,9 @@ void TASK2_Tasks ( void )
                     {
                         LOG_DBG("========= TASK2: HANDLE TARGET TX DONE!! =========");
                         DRV_TGT_TX_Done_Task(i3c1Dev);
+
+                        LOG_DBG("Prepare data for master");
+                        tgt_test_xfers_all(i3c1Dev);
                     }
                 }
             default:

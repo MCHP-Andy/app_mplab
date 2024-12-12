@@ -376,6 +376,9 @@ void TASK1_Tasks(void)
                LOG_DBG("=========== TASK1 ==========");
 
                DRV_I3C_Bus_Init(i3c0Dev);
+
+               LOG_DBG("Delay 2000ms");
+               vTaskDelay(2000 / portTICK_PERIOD_MS);
                 
                 // test_bcast_ccc_all(i3c0Dev);
                 // test_direct_ccc_all(i3c0Dev);
@@ -388,6 +391,8 @@ void TASK1_Tasks(void)
                 //tgt_test_ibis_all(i3c1Dev);
                 
                 task1Context.state = TASK1_STATE_SERVICE_TASKS;
+
+                LOG_DBG("Init done");
             break;
             case TASK1_STATE_SERVICE_TASKS:
                 //while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c1Dev->data))->events_sem, DRV_IBI_WAIT_MS))
