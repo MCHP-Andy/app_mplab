@@ -4,8 +4,8 @@
 
 @REM echo %PATH%
 
-set OBJ_TOOL_PATH=C:\Users\A78501\mchp_zephyr\zephyr-sdk-0.17.0\arm-zephyr-eabi\bin
-set IMG_TOOL_PATH=C:\Users\A78501\mchp_zephyr\CPGZephyrDocs\MEC175x
+set OBJ_TOOL_PATH=..\..\zephyr-sdk-0.17.0\arm-zephyr-eabi\bin
+set IMG_TOOL_PATH=..\..\CPGZephyrDocs\MEC175x
 @REM set PATH=%PATH%;%IMG_TOOL_PATH%;%IMG_TOOL_PATH%
 
 
@@ -27,7 +27,8 @@ echo "Generate bin file from elf"
 
 
 echo "Generate SPI Image"
-mec175x_spi_gen.exe -i %IMG_TOOL_PATH%\mec175x_spi_cfg.txt -o spi_image.bin
+@REM %IMG_TOOL_PATH%\mec175x_spi_gen.exe -i %IMG_TOOL_PATH%\mec175x_spi_cfg.txt -o spi_image.bin
+%IMG_TOOL_PATH%\mec175x_spi_gen.exe -i mec175x_spi_cfg.txt -o spi_image.bin
 
 @REM echo "Flash SPI Image"
 @REM set PROG_TOOL_PATH="C:\Program Files (x86)\DediProg\SF Programmer"
