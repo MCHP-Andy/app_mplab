@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/kf_freertos_fpga/production/kf_freertos_fpga.X.production.elf">
+    <memory name="program">
+      <units>bytes</units>
+      <length>327680</length>
+      <used>49790</used>
+      <free>277890</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>40960</length>
+      <used>15450</used>
+      <free>25510</free>
+    </memory>
+  </executable>
+</project>
