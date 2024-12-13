@@ -101,7 +101,7 @@ uint8_t txd_cust[TEST_LEN];
 uint8_t rxd_cust[TEST_LEN];
 #endif
 
-uint8_t tx_max[128] = {};
+uint8_t tx_max[256] = {};
 
 int test_xfers_all(struct device *dev)
 {

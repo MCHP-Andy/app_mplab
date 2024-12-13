@@ -30,7 +30,7 @@ echo "Generate SPI Image"
 @REM %IMG_TOOL_PATH%\mec175x_spi_gen.exe -i %IMG_TOOL_PATH%\mec175x_spi_cfg.txt -o spi_image.bin
 %IMG_TOOL_PATH%\mec175x_spi_gen.exe -i mec175x_spi_cfg.txt -o spi_image.bin
 
-@REM echo "Flash SPI Image"
-@REM set PROG_TOOL_PATH="C:\Program Files (x86)\DediProg\SF Programmer"
+echo "Flash SPI Image"
+set PROG_TOOL_PATH="C:\Program Files (x86)\DediProg\SF Programmer"
 @REM dediprog "--spi-image=${PROJECT_BINARY_DIR}/${SPI_IMAGE_NAME}" "--vcc=0"
-@REM %PROG_TOOL_PATH%\dpcmd.exe --spi-image=spi_image.bin --vcc=0
+%PROG_TOOL_PATH%\DpCmd.exe -uspi_image.bin

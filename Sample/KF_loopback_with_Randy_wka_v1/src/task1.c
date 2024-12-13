@@ -370,7 +370,8 @@ void TASK1_Tasks(void)
         switch(task1Context.state)
         {
             case TASK1_STATE_INIT:
-#if (I3C_ENABLE_DMA)                
+#if (I3C_ENABLE_DMA)
+                LOG_DBG("TASK1: Enable DMA");
                 dma_main_enable(dma_main_ptr);
 #endif 
                LOG_DBG("=========== TASK1 ==========");
