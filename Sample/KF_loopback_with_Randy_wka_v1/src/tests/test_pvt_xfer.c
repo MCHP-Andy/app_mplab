@@ -101,7 +101,11 @@ uint8_t txd_cust[TEST_LEN];
 uint8_t rxd_cust[TEST_LEN];
 #endif
 
-uint8_t tx_max[256] = {};
+#if I3C_ENABLE_DMA
+uint8_t tx_max[4096] = {0};
+#else
+uint8_t tx_max[128] = {0};
+#endif
 
 int test_xfers_all(struct device *dev)
 {
@@ -148,7 +152,7 @@ int test_xfers_all(struct device *dev)
         // ret = test_private_write(target, &txd[i%2][0], 10, pec_en, hdr_en);
 
         for (size_t i = 0; i < sizeof(tx_max); i++)
-            tx_max[i] = i;
+            tx_max[i] = i/16;
         ret = test_private_write(target, tx_max, sizeof(tx_max), pec_en, hdr_en);
 
         if (ret < 0) {
