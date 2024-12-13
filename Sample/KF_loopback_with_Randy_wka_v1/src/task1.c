@@ -59,6 +59,11 @@
 
 #include "tests/test_ccc.h"
 
+
+#include "components/log/log.h"
+
+#define TAG "TASK1"
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -364,6 +369,8 @@ void TASK1_Tasks(void)
 {
     struct dma_main_regs *dma_main_ptr = (struct dma_main_regs *)DMA_MAIN_BLK_BASE_ADDRESS;
     uint32_t event_bits = 0;
+
+    LOGI(TAG, "TASK1 start!");
 
     while (1)
     {

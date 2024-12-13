@@ -362,6 +362,9 @@
           <itemPath>../src/third_party/rtos/FreeRTOS/Source/event_groups.c</itemPath>
         </logicalFolder>
       </logicalFolder>
+      <logicalFolder name="f1" displayName="log" projectFiles="true">
+        <itemPath>../src/components/log/log.c</itemPath>
+      </logicalFolder>
       <logicalFolder name="tests" displayName="tests" projectFiles="true">
         <itemPath>../src/tests/test_ccc.c</itemPath>
         <itemPath>../src/tests/test_pvt_xfer.c</itemPath>
@@ -616,7 +619,7 @@
         <property key="memories.programmemory.ranges" value="c8000-117fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="E:/Shreyas/shreyas_p4v_workspace/depot_pcs/FWEng/projects/I3C/usercodeline/shreyask/kf_freertos_base/firmware/kf_freertos_fpga.X/debug/kf_freertos_fpga/kf_freertos_fpga_ptg"/>
+                  value="C:/Users/Andy/Desktop/I3C/Sample/KF_loopback_with_Randy_wka_v1/kf_freertos_fpga.X/debug/kf_freertos_fpga/kf_freertos_fpga_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>
