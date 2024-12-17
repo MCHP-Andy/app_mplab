@@ -390,13 +390,18 @@ void TASK1_Tasks(void)
                 
                 // test_bcast_ccc_all(i3c0Dev);
                 // test_direct_ccc_all(i3c0Dev);
-                 test_xfers_all(i3c0Dev);
-                // test_ibis_all(i3c0Dev);
+                LOGI(TAG, "test_xfers_all");
+                test_xfers_all(i3c0Dev);
+                LOGI(TAG, "test_xfers_all end\n\n\n");
+
+                LOGI(TAG, "test_ibis_all");
+                test_ibis_all(i3c0Dev);
+                LOGI(TAG, "test_ibis_all end\n\n\n");
                 // test_icm42605_all(i3c0Dev);
-                 //test_xfers_all(i3c0Dev);
- //LOG_DBG("[%s] - Raise IBI MR", __FUNCTION__);
-                 //tgt_test_xfers_all(i3c1Dev);
-                //tgt_test_ibis_all(i3c1Dev);
+                // test_xfers_all(i3c0Dev);
+                // LOG_DBG("[%s] - Raise IBI MR", __FUNCTION__);
+                // tgt_test_xfers_all(i3c1Dev);
+                // tgt_test_ibis_all(i3c1Dev);
                 
                 task1Context.state = TASK1_STATE_SERVICE_TASKS;
 
