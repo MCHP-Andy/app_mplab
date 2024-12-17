@@ -28,7 +28,7 @@
     Microchip Technology Inc.
 
   File Name:
-    task2.c
+    task3.c
 
   Summary:
     This file contains the source code for the MPLAB Harmony application.
@@ -50,16 +50,13 @@
 // *****************************************************************************
 // *****************************************************************************
 
-#include "task2.h"
 #include "definitions.h"
+#include "portmacro.h"
 #include <string.h>
-
-#include "debug/trace.h"
 
 #include "components/log/log.h"
 
-#define TAG "TASK2"
-
+#define TAG "TASK4"
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -76,22 +73,16 @@
     This structure holds the application's data.
 
   Remarks:
-    This structure should be initialized by the TASK2_Initialize function.
+    This structure should be initialized by the TASK3_Initialize function.
 
     Application strings and buffers are be defined outside this structure.
 */
-
-TASK2_DATA task2Data;
-extern SemaphoreHandle_t uartMutexLock;
 
 // *****************************************************************************
 // *****************************************************************************
 // Section: Application Callback Functions
 // *****************************************************************************
 // *****************************************************************************
-
-/* TODO:  Add any necessary callback functions.
-*/
 
 // *****************************************************************************
 // *****************************************************************************
@@ -112,121 +103,64 @@ extern SemaphoreHandle_t uartMutexLock;
 
 /*******************************************************************************
   Function:
-    void TASK2_Initialize ( void )
+    void TASK3_Initialize ( void )
 
   Remarks:
-    See prototype in task2.h.
+    See prototype in task4.h.
  */
 
-TASK2_DATA task2Context;
-
-extern void DRV_IBI_Task(const struct device *dev);
-extern void DRV_TGT_RX_Task(const struct device *dev);
-extern void DRV_TGT_TX_Done_Task(const struct device *dev);
-
-extern void test_bcast_ccc_all(struct device *dev);
-extern void test_direct_ccc_all(struct device *dev);
-extern int test_xfers_all(struct device *dev);
-extern int test_ibis_all(struct device *dev);
-extern int test_icm42605_all(struct device *dev);
-
-extern int tgt_test_xfers_all(struct device *dev);
-extern int tgt_test_ibis_all(struct device *dev);
-extern uint32_t get_event(uint32_t *event_id ,uint32_t events_to_wait, bool clear_on_exit);
-
-void TASK2_Initialize ( void )
+void TASK4_Initialize ( void )
 {
     /* Place the App state machine in its initial state. */
-    task2Data.state = TASK2_STATE_INIT;
+
 
     /* TODO: Initialize your application's state machine and other
      * parameters.
      */
 }
 
-void task2_state_switch(TASK2_STATES state)
-{
-    OSAL_CRITSECT_DATA_TYPE intStatus = OSAL_CRIT_Enter(OSAL_CRIT_TYPE_LOW);
-    task2Context.state = state;
-    OSAL_CRIT_Leave(OSAL_CRIT_TYPE_LOW, intStatus);
-}
 
 /******************************************************************************
   Function:
-    void TASK2_Tasks ( void )
+    void TASK4_Tasks ( void )
 
   Remarks:
-    See prototype in task2.h.
+    See prototype in task3.h.
  */
 
-void TASK2_Tasks ( void )
+void TASK4_Tasks ( void )
 {
-   
-    uint32_t event_bits = 0;
+    LOGI(TAG, "=========== TASK4 ==========");
 
-    while (1)
+    LOGI(TAG, "Wait for peripheral initial");
+    vTaskDelay(1000 / portTICK_PERIOD_MS );
+
+    LOGI(TAG, "test_xfers_all");
+    test_xfers_all(i3c0Dev);
+    LOGI(TAG, "test_xfers_all end\n\n\n");
+
+    LOGI(TAG, "test_ibis_all");
+    test_ibis_all(i3c0Dev);
+    LOGI(TAG, "test_ibis_all end\n\n\n");
+
+    LOGI(TAG, "test_ibis_all");
+    test_ibis_all(i3c0Dev);
+    LOGI(TAG, "test_ibis_all end\n\n\n");
+
+    LOGI(TAG, "tgt_test_xfers_all");
+    tgt_test_xfers_all(i3c1Dev);
+    LOGI(TAG, "tgt_test_xfers_all end\n\n\n");
+
+    LOGI(TAG, "tgt_test_ibis_all");
+    tgt_test_ibis_all(i3c1Dev);
+    LOGI(TAG, "tgt_test_ibis_all end\n\n\n");
+
+    while(1)
     {
-        switch(task2Context.state)
-        {
-            case TASK2_STATE_INIT:
-                LOGI(TAG, "=========== TASK2 ==========");
-
-//#ifndef I3C1_AS_HOST             
-                //I3C1 as Secondary Controller or Target
-                LOGI(TAG, "I3C target init Start");
-                tgt_test_xfers_all(i3c1Dev);
-                LOGI(TAG, "I3C target init Done\n");
-//                
-//#else
-//                //I3C1 as host
-//                DRV_I3C_Bus_Init(i3c1Dev);
-//                
-//                // test_bcast_ccc_all(i3c1Dev);
-//                // test_direct_ccc_all(i3c1Dev);
-//                 //test_xfers_all(i3c1Dev);
-//                // test_ibis_all(i3c1Dev);
-//                // test_icm42605_all(i3c1Dev);
-//                 test_xfers_all(i3c1Dev);
-//#endif                  
-                task2Context.state = TASK2_STATE_SERVICE_TASKS;
-            break;
-            case TASK2_STATE_SERVICE_TASKS:
-               while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c1Dev->data))->events_sem, DRV_IBI_WAIT_MS))
-                // while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&I3C0_DATA.events_sem, DRV_IBI_WAIT_MS))
-                {
-                    event_bits = get_event(&task2Context.events, DRV_EVENT_BIT_HANDLE_IBI, true);
-                    if(event_bits & DRV_EVENT_BIT_HANDLE_IBI)
-                    {
-                        LOGI(TAG, "HANDLE IBI!!");
-                        DRV_IBI_Task(i3c1Dev);
-                    }
-                    
-                    if(event_bits & DRV_EVENT_BIT_HANDLE_TGT_RX)
-                    {
-                        LOGI(TAG, "HANDLE TARGET RX!!");
-                        DRV_TGT_RX_Task(i3c1Dev);
-                    }
-                    
-                    if(event_bits & DRV_EVENT_BIT_HANDLE_TGT_TX_DONE)
-                    {
-                        LOGI(TAG, "HANDLE TARGET TX DONE!!");
-                        DRV_TGT_TX_Done_Task(i3c1Dev);
-
-                        LOGI(TAG, "Prepare data for master");
-                        tgt_test_xfers_all(i3c1Dev);
-                    }
-                }
-            default:
-            break;
-        }
+        /* Run the task again after 10000 msec */
+        vTaskDelay(10000 / portTICK_PERIOD_MS );        
     }
 }
-
-TASK2_DATA *get_task2_context(void)
-{
-    return &task2Context;
-}
-
 
 /*******************************************************************************
  End of File

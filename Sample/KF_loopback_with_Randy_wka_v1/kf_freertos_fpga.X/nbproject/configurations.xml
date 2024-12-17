@@ -378,6 +378,7 @@
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/task2.c</itemPath>
       <itemPath>../src/task3.c</itemPath>
+      <itemPath>../src/task4.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -619,7 +620,7 @@
         <property key="memories.programmemory.ranges" value="c8000-117fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/Users/Andy/Desktop/I3C/Sample/KF_loopback_with_Randy_wka_v1/kf_freertos_fpga.X/debug/kf_freertos_fpga/kf_freertos_fpga_ptg"/>
+                  value="E:/Shreyas/shreyas_p4v_workspace/depot_pcs/FWEng/projects/I3C/usercodeline/shreyask/kf_freertos_base/firmware/kf_freertos_fpga.X/debug/kf_freertos_fpga/kf_freertos_fpga_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>

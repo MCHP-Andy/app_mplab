@@ -147,7 +147,6 @@ int test_xfers_all(struct device *dev)
         print_buf(&rxd_cust[0], TEST_LEN);        
         // while(1);
 #else
-        LOG_DBG("\r\n");
         LOG_DBG("Master write to target:");
         // ret = test_private_write(target, &txd[i%2][0], 10, pec_en, hdr_en);
 
@@ -199,7 +198,6 @@ int test_xfers_all(struct device *dev)
         LOG_DBG("Master write/read to/from target:");
         ret = test_private_write_read(target, &txd[i%2][0], 10, &rxd[i%2][0], 10, pec_en, hdr_en);
         print_buf(&rxd[i%2][0], 10);
-        LOG_DBG("\r\n");
     }
 #endif    
 
