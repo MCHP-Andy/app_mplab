@@ -168,6 +168,9 @@ int DRV_I3C_Init(const struct device *dev)
     struct xec_i3c_data *data = dev->data;
     struct i3c_xec_regs *regs = config->regs;
     struct i3c_config_controller *ctrl_config = &data->common.ctrl_config;
+#if (I3C_ENABLE_DMA)
+    struct dma_main_regs *dma_main_ptr = (struct dma_main_regs *)DMA_MAIN_BLK_BASE_ADDRESS;
+#endif
     int ret = 0, i3c_bus_mode = I3C_BUS_MODE_PURE;
     uint32_t core_clock = config->clock;
     int i;
@@ -179,6 +182,10 @@ int DRV_I3C_Init(const struct device *dev)
     if (false == I3C_Is_Current_Role_Primary(regs)) {
         ctrl_config->is_secondary = true;
     }
+
+#if (I3C_ENABLE_DMA)
+    dma_main_enable(dma_main_ptr);
+#endif
 
     if ((ctrl_config->is_secondary) && (ctrl_config->secondary_mode != I3C_SEC_MODE_HOST)) {
         I3C_Target_Init(regs, core_clock, &data->tgt_max_read_len, &data->tgt_max_write_len);
@@ -1009,6 +1016,7 @@ static int _drv_i3c_xfers(const struct device *dev, struct i3c_msg *msgs,
 
         if (pending_xfer_ctxt.node[i].read) {
             
+            _i3c_rx_fifo_rst(regs);
             dataAHBAddress = (uint32_t)&regs->rx_tx_port;
             device = dma_get_device_id(I3C_HOST_RX, 0);
             dma_setup_rx(dma_regs_rx, device, dataAHBAddress, (uint32_t)do_xfer_instance.cmds[i].data_buf, do_xfer_instance.cmds[i].data_len, true, true); 
@@ -1103,7 +1111,7 @@ static int _drv_i3c_xfers_iter(const struct device *dev, struct i3c_msg *msgs,
     ret = _drv_i3c_xfers(dev, msgs, num_msgs, tgt_addr, response);
     OSAL_SEM_Post(&data->xfer_lock);
 
-    if ((!ret) && response) {
+    if ((ret) && response) {
         /* Error in Response */
         LOG_ERR("!!Error - 0x%08x - %d!!", response, ret);
         return ret;
@@ -1950,7 +1958,8 @@ static void _drv_i3c_isr_xfers(struct i3c_xec_regs *regs, uint16_t num_responses
                     } else {
                         _i3c_fifo_read(regs, pending_xfer_ctxt.node[i].data_buf, data_len);
                     }
-#else
+#elif (!I3C_ENABLE_DMA)
+//#else
                     _i3c_fifo_read(regs, pending_xfer_ctxt.node[i].data_buf, data_len);
 #endif
 

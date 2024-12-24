@@ -164,7 +164,7 @@ void TASK2_Tasks ( void )
         switch(task2Context.state)
         {
             case TASK2_STATE_INIT:
-
+LOG_DBG("========== TASK2 ============");
 //#ifndef I3C1_AS_HOST             
                 //I3C1 as Secondary Controller or Target
                 tgt_test_xfers_all(i3c1Dev);

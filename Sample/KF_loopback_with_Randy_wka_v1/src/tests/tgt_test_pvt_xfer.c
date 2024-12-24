@@ -47,9 +47,11 @@ struct i3c_target_callbacks tgt0_cbs= {
 struct i3c_target_config tgt0_cfg;
 
 extern int DRV_I3C_target_tx_write(const struct device *dev, uint8_t *buf, uint16_t len);
-uint8_t tx_buff[10] = {0xf1, 0xf2, 0xf3, 0xf4, 0xf5, 0xf6, 0xf7, 0xf8, 0xf9, 0xfa};
-uint8_t rx_buff[10];
-
+//uint8_t tx_buff[10] = {0x4b, 0x7f, 0x73, 0x66, 0x7d, 0x13, 0x69, 0x25, 0xb4, 0xbf};
+//uint8_t rx_buff[135];
+#define WRITE_SIZE 128
+uint8_t tx_buff[WRITE_SIZE];
+uint8_t rx_buff[512];
 static int tgt0_write_requested_cb(struct i3c_target_config *config)
 {
     LOG_DBG("[%s]", __FUNCTION__);
@@ -137,11 +139,13 @@ static int tgt_test_xfer_controller_read(struct device *dev)
     if(NULL == dev) {
         goto tgt_test_xfer_controller_read_exit;
     }
-
+    for (int i=0; i<WRITE_SIZE; i++) {
+        tx_buff[i] = 0xFF;
+    } 
     // DRV_I3C_target_tx_write(dev, tx_buff, 2);
     // DRV_I3C_target_tx_write(dev, tx_buff, 3);
     // DRV_I3C_target_tx_write(dev, tx_buff, 4);
-    DRV_I3C_target_tx_write(dev, tx_buff, 10);
+    DRV_I3C_target_tx_write(dev, tx_buff, WRITE_SIZE);
 
 tgt_test_xfer_controller_read_exit:
     return ret;
