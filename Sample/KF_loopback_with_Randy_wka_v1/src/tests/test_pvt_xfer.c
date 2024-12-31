@@ -101,9 +101,8 @@ uint8_t txd_cust[TEST_LEN];
 uint8_t rxd_cust[TEST_LEN];
 #endif
 
-#define WRITE_SIZE 512
-//#define READ_SIZE 576 //Introspect python script not allow to increase the size beyond this 
-#define READ_SIZE 512
+#define WRITE_SIZE 4096
+#define READ_SIZE 4096
     uint8_t txd[WRITE_SIZE];
     uint8_t rxd1[READ_SIZE];
 int test_xfers_all(struct device *dev)
@@ -118,7 +117,7 @@ int test_xfers_all(struct device *dev)
 //    };
 
     for (i=0; i<WRITE_SIZE; i++) {
-        txd[i] = 0xDE;
+        txd[i] = i%0x100;//fill 0x00-0xff
     } 
 
 //    uint8_t rxd[MAX_TARGETS][READ_SIZE];
@@ -151,7 +150,7 @@ int test_xfers_all(struct device *dev)
         //print_buf(&rxd_cust[0], TEST_LEN);        
         while(1);
 #else
-        LOG_DBG("Master write to target:");
+        LOG_DBG("Master: write %d bytes to target", WRITE_SIZE);
                 ret = test_private_write(target, &txd[0], WRITE_SIZE, pec_en, hdr_en);
 #endif
     } 
@@ -171,7 +170,7 @@ int test_xfers_all(struct device *dev)
 //        ret = test_private_read(target, &rxd[i%2][0], READ_SIZE, pec_en, hdr_en);
 //        print_buf(&rxd[i%2][0], READ_SIZE);
         ret = test_private_read(target, &rxd1[0], READ_SIZE, pec_en, hdr_en);
-        LOG_DBG("Master read from target:");
+        LOG_DBG("Master: received %d bytes from target", READ_SIZE);
         print_buf(&rxd1[0], READ_SIZE);
     }
 

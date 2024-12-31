@@ -47,11 +47,9 @@ struct i3c_target_callbacks tgt0_cbs= {
 struct i3c_target_config tgt0_cfg;
 
 extern int DRV_I3C_target_tx_write(const struct device *dev, uint8_t *buf, uint16_t len);
-//uint8_t tx_buff[10] = {0x4b, 0x7f, 0x73, 0x66, 0x7d, 0x13, 0x69, 0x25, 0xb4, 0xbf};
-//uint8_t rx_buff[135];
-#define WRITE_SIZE 128
+#define WRITE_SIZE 4096
 uint8_t tx_buff[WRITE_SIZE];
-uint8_t rx_buff[512];
+
 static int tgt0_write_requested_cb(struct i3c_target_config *config)
 {
     LOG_DBG("[%s]", __FUNCTION__);
@@ -66,13 +64,15 @@ static int tgt0_write_received_cb(struct i3c_target_config *config, uint8_t *val
     addr_rnw = (config->address << 1);
     if(NULL != val && len > 0)
     {
+        LOG_DBG("Target: received %d bytes from master", len);
         LOG_DBG("[%s] DA = 0x%02x received %d bytes", __FUNCTION__, addr_rnw, len);
 
-        memset(&rx_buff[0], 0x00, sizeof(rx_buff));
-        memcpy(&rx_buff[0], val, len);
-        for(int i=0; i<len; i++) {
-            LOG_DBG("Data => 0x%02x", rx_buff[i]);
-        }
+        //memset(&rx_buff[0], 0x00, sizeof(rx_buff));
+        //memcpy(&rx_buff[0], val, len);
+        //for(int i=0; i<len; i++) {
+        //    LOG_DBG("Data => 0x%02x", val[i]);
+        //}
+        print_buf(val, len);
     }
     
     // crc8 = crc8_init();
@@ -140,11 +140,12 @@ static int tgt_test_xfer_controller_read(struct device *dev)
         goto tgt_test_xfer_controller_read_exit;
     }
     for (int i=0; i<WRITE_SIZE; i++) {
-        tx_buff[i] = 0xFF;
+        tx_buff[i] = i%0x100;//fill 0x00-0xff
     } 
     // DRV_I3C_target_tx_write(dev, tx_buff, 2);
     // DRV_I3C_target_tx_write(dev, tx_buff, 3);
     // DRV_I3C_target_tx_write(dev, tx_buff, 4);
+    LOG_DBG("Target: write %d bytes to master", WRITE_SIZE);
     DRV_I3C_target_tx_write(dev, tx_buff, WRITE_SIZE);
 
 tgt_test_xfer_controller_read_exit:
