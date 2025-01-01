@@ -158,7 +158,7 @@ void TASK2_Tasks ( void )
 {
    
     uint32_t event_bits = 0;
-
+    vTaskDelay(1000 / portTICK_PERIOD_MS );
     while (1)
     {
         switch(task2Context.state)
@@ -167,7 +167,8 @@ void TASK2_Tasks ( void )
 
 //#ifndef I3C1_AS_HOST             
                 //I3C1 as Secondary Controller or Target
-                tgt_test_xfers_all(i3c1Dev);
+//                tgt_test_xfers_all(i3c1Dev);
+                tgt_test_ibis_all(i3c1Dev);
 //                
 //#else
 //                //I3C1 as host

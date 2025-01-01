@@ -24,6 +24,30 @@
 #include "definitions.h"
 #include "debug/trace.h"
 
+static int target_5a_ibi_cb(struct i3c_device_desc *target, struct i3c_ibi_payload *payload)
+{
+    int ret = 0, i = 0;
+   
+    if(payload == NULL)
+    {
+      ret = -1;
+      goto exit_target_5a_ibi_cb;
+    }
+
+//    LOG_DBG("Enter [%s] - RxD %d bytes of payload", __FUNCTION__, payload->payload_len);
+    if(payload->payload_len) {
+        LOG_DBG("M:RxD");
+
+        for(uint8_t indx=0;indx<payload->payload_len;indx++)
+            tracex("0x%x ", payload->payload[indx]);
+        tracex("\r\n");
+            // print_buf(&payload->payload[0], payload->payload_len);
+    }
+
+exit_target_5a_ibi_cb:
+    return ret;
+}
+
 static int target_5b_ibi_cb(struct i3c_device_desc *target, struct i3c_ibi_payload *payload)
 {
     int ret = 0, i = 0;
@@ -79,6 +103,10 @@ int test_ibis_all(struct device *dev)
             continue;
         }
 
+        if(target->dynamic_addr == 0x5a) {
+            target->ibi_cb = target_5a_ibi_cb;
+        }
+        
         if(target->dynamic_addr == 0x5b) {
             target->ibi_cb = target_5b_ibi_cb;
         }

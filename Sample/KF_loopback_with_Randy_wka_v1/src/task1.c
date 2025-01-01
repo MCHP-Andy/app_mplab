@@ -362,7 +362,6 @@ void set_event_from_isr(uint32_t *event_id, uint32_t events_to_set)
  */
 void TASK1_Tasks(void)
 {
-    struct dma_main_regs *dma_main_ptr = (struct dma_main_regs *)DMA_MAIN_BLK_BASE_ADDRESS;
     uint32_t event_bits = 0;
 
     while (1)
@@ -370,17 +369,14 @@ void TASK1_Tasks(void)
         switch(task1Context.state)
         {
             case TASK1_STATE_INIT:
-#if (I3C_ENABLE_DMA)                
-                dma_main_enable(dma_main_ptr);
-#endif 
-               LOG_DBG("=========== TASK1 ==========");
+//               LOG_DBG("=========== TASK1 ==========");
 
                DRV_I3C_Bus_Init(i3c0Dev);
                 
                 // test_bcast_ccc_all(i3c0Dev);
                 // test_direct_ccc_all(i3c0Dev);
-                 test_xfers_all(i3c0Dev);
-                // test_ibis_all(i3c0Dev);
+                // test_xfers_all(i3c0Dev);
+                 test_ibis_all(i3c0Dev);
                 // test_icm42605_all(i3c0Dev);
                  //test_xfers_all(i3c0Dev);
  //LOG_DBG("[%s] - Raise IBI MR", __FUNCTION__);
