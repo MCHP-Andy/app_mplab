@@ -1,0 +1,1001 @@
+7922 1733404339851 XXXX 1733404339851, Thread 7922: XXXX 1733404339851, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339853 XXXX 1733404339853, Thread 7922: XXXX 1733404339853, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339853 XXXX 1733404339853, Thread 7922: XXXX 1733404339853, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339855 XXXX 1733404339855, Thread 7922: XXXX 1733404339855, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339855 XXXX 1733404339855, Thread 7922: XXXX 1733404339855, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339857 XXXX 1733404339857, Thread 7922: XXXX 1733404339857, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339857 XXXX 1733404339857, Thread 7922: XXXX 1733404339857, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339859 XXXX 1733404339859, Thread 7922: XXXX 1733404339859, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339859 XXXX 1733404339859, Thread 7922: XXXX 1733404339859, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339861 XXXX 1733404339861, Thread 7922: XXXX 1733404339861, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339861 XXXX 1733404339861, Thread 7922: XXXX 1733404339861, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339863 XXXX 1733404339863, Thread 7922: XXXX 1733404339863, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339863 XXXX 1733404339863, Thread 7922: XXXX 1733404339863, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339866 XXXX 1733404339866, Thread 7922: XXXX 1733404339866, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339866 XXXX 1733404339866, Thread 7922: XXXX 1733404339866, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339868 XXXX 1733404339868, Thread 7922: XXXX 1733404339868, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339868 XXXX 1733404339868, Thread 7922: XXXX 1733404339868, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339870 XXXX 1733404339870, Thread 7922: XXXX 1733404339870, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339870 XXXX 1733404339870, Thread 7922: XXXX 1733404339870, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339872 XXXX 1733404339872, Thread 7922: XXXX 1733404339872, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339872 XXXX 1733404339872, Thread 7922: XXXX 1733404339872, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339874 XXXX 1733404339874, Thread 7922: XXXX 1733404339874, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339874 XXXX 1733404339874, Thread 7922: XXXX 1733404339874, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339876 XXXX 1733404339876, Thread 7922: XXXX 1733404339876, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339876 XXXX 1733404339876, Thread 7922: XXXX 1733404339876, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339878 XXXX 1733404339878, Thread 7922: XXXX 1733404339878, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339878 XXXX 1733404339878, Thread 7922: XXXX 1733404339878, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339880 XXXX 1733404339880, Thread 7922: XXXX 1733404339880, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339880 XXXX 1733404339880, Thread 7922: XXXX 1733404339880, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339882 XXXX 1733404339882, Thread 7922: XXXX 1733404339882, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339882 XXXX 1733404339882, Thread 7922: XXXX 1733404339882, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339884 XXXX 1733404339884, Thread 7922: XXXX 1733404339884, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339884 XXXX 1733404339884, Thread 7922: XXXX 1733404339884, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339886 XXXX 1733404339886, Thread 7922: XXXX 1733404339886, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339886 XXXX 1733404339886, Thread 7922: XXXX 1733404339886, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339888 XXXX 1733404339888, Thread 7922: XXXX 1733404339888, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339888 XXXX 1733404339888, Thread 7922: XXXX 1733404339888, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339889 XXXX 1733404339889, Thread 7922: XXXX 1733404339889, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339890 XXXX 1733404339890, Thread 7922: XXXX 1733404339889, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339892 XXXX 1733404339892, Thread 7922: XXXX 1733404339892, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339892 XXXX 1733404339892, Thread 7922: XXXX 1733404339892, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339894 XXXX 1733404339894, Thread 7922: XXXX 1733404339894, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339894 XXXX 1733404339894, Thread 7922: XXXX 1733404339894, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339896 XXXX 1733404339896, Thread 7922: XXXX 1733404339896, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339896 XXXX 1733404339896, Thread 7922: XXXX 1733404339896, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339898 XXXX 1733404339898, Thread 7922: XXXX 1733404339898, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339898 XXXX 1733404339898, Thread 7922: XXXX 1733404339898, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339900 XXXX 1733404339900, Thread 7922: XXXX 1733404339900, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339900 XXXX 1733404339900, Thread 7922: XXXX 1733404339900, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339902 XXXX 1733404339902, Thread 7922: XXXX 1733404339902, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339902 XXXX 1733404339902, Thread 7922: XXXX 1733404339902, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339904 XXXX 1733404339904, Thread 7922: XXXX 1733404339904, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339904 XXXX 1733404339904, Thread 7922: XXXX 1733404339904, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339905 XXXX 1733404339905, Thread 7922: XXXX 1733404339905, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339905 XXXX 1733404339905, Thread 7922: XXXX 1733404339905, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339907 XXXX 1733404339907, Thread 7922: XXXX 1733404339907, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339907 XXXX 1733404339907, Thread 7922: XXXX 1733404339907, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339909 XXXX 1733404339909, Thread 7922: XXXX 1733404339909, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339909 XXXX 1733404339909, Thread 7922: XXXX 1733404339909, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339913 XXXX 1733404339913, Thread 7922: XXXX 1733404339913, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339913 XXXX 1733404339913, Thread 7922: XXXX 1733404339913, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339915 XXXX 1733404339915, Thread 7922: XXXX 1733404339915, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339915 XXXX 1733404339915, Thread 7922: XXXX 1733404339915, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339918 XXXX 1733404339918, Thread 7922: XXXX 1733404339918, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339918 XXXX 1733404339918, Thread 7922: XXXX 1733404339918, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339921 XXXX 1733404339921, Thread 7922: XXXX 1733404339921, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339921 XXXX 1733404339921, Thread 7922: XXXX 1733404339921, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339922 XXXX 1733404339922, Thread 7922: XXXX 1733404339922, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339922 XXXX 1733404339922, Thread 7922: XXXX 1733404339922, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339925 XXXX 1733404339925, Thread 7922: XXXX 1733404339925, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339925 XXXX 1733404339925, Thread 7922: XXXX 1733404339925, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339927 XXXX 1733404339927, Thread 7922: XXXX 1733404339927, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339927 XXXX 1733404339927, Thread 7922: XXXX 1733404339927, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339929 XXXX 1733404339929, Thread 7922: XXXX 1733404339929, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339929 XXXX 1733404339929, Thread 7922: XXXX 1733404339929, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339931 XXXX 1733404339931, Thread 7922: XXXX 1733404339931, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339931 XXXX 1733404339931, Thread 7922: XXXX 1733404339931, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339932 XXXX 1733404339932, Thread 7922: XXXX 1733404339932, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339932 XXXX 1733404339932, Thread 7922: XXXX 1733404339932, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339935 XXXX 1733404339935, Thread 7922: XXXX 1733404339935, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339935 XXXX 1733404339935, Thread 7922: XXXX 1733404339935, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339936 XXXX 1733404339936, Thread 7922: XXXX 1733404339936, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339936 XXXX 1733404339936, Thread 7922: XXXX 1733404339936, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339939 XXXX 1733404339939, Thread 7922: XXXX 1733404339939, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339939 XXXX 1733404339939, Thread 7922: XXXX 1733404339939, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339941 XXXX 1733404339941, Thread 7922: XXXX 1733404339941, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339941 XXXX 1733404339941, Thread 7922: XXXX 1733404339941, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339943 XXXX 1733404339943, Thread 7922: XXXX 1733404339943, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339943 XXXX 1733404339943, Thread 7922: XXXX 1733404339943, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339945 XXXX 1733404339945, Thread 7922: XXXX 1733404339945, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339945 XXXX 1733404339945, Thread 7922: XXXX 1733404339945, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339947 XXXX 1733404339947, Thread 7922: XXXX 1733404339947, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339947 XXXX 1733404339947, Thread 7922: XXXX 1733404339947, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339949 XXXX 1733404339949, Thread 7922: XXXX 1733404339949, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339949 XXXX 1733404339949, Thread 7922: XXXX 1733404339949, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339951 XXXX 1733404339951, Thread 7922: XXXX 1733404339951, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339951 XXXX 1733404339951, Thread 7922: XXXX 1733404339951, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339953 XXXX 1733404339953, Thread 7922: XXXX 1733404339953, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339953 XXXX 1733404339953, Thread 7922: XXXX 1733404339953, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339955 XXXX 1733404339955, Thread 7922: XXXX 1733404339955, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339955 XXXX 1733404339955, Thread 7922: XXXX 1733404339955, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339957 XXXX 1733404339957, Thread 7922: XXXX 1733404339957, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339957 XXXX 1733404339957, Thread 7922: XXXX 1733404339957, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339959 XXXX 1733404339959, Thread 7922: XXXX 1733404339959, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339959 XXXX 1733404339959, Thread 7922: XXXX 1733404339959, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339961 XXXX 1733404339961, Thread 7922: XXXX 1733404339961, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339961 XXXX 1733404339961, Thread 7922: XXXX 1733404339961, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339963 XXXX 1733404339963, Thread 7922: XXXX 1733404339963, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339963 XXXX 1733404339963, Thread 7922: XXXX 1733404339963, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339965 XXXX 1733404339965, Thread 7922: XXXX 1733404339965, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339965 XXXX 1733404339965, Thread 7922: XXXX 1733404339965, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339967 XXXX 1733404339967, Thread 7922: XXXX 1733404339967, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339967 XXXX 1733404339967, Thread 7922: XXXX 1733404339967, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339969 XXXX 1733404339969, Thread 7922: XXXX 1733404339969, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339969 XXXX 1733404339969, Thread 7922: XXXX 1733404339969, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339971 XXXX 1733404339971, Thread 7922: XXXX 1733404339971, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339971 XXXX 1733404339971, Thread 7922: XXXX 1733404339971, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339973 XXXX 1733404339973, Thread 7922: XXXX 1733404339973, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339973 XXXX 1733404339973, Thread 7922: XXXX 1733404339973, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339975 XXXX 1733404339975, Thread 7922: XXXX 1733404339975, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339975 XXXX 1733404339975, Thread 7922: XXXX 1733404339975, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339977 XXXX 1733404339977, Thread 7922: XXXX 1733404339977, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339977 XXXX 1733404339977, Thread 7922: XXXX 1733404339977, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339979 XXXX 1733404339979, Thread 7922: XXXX 1733404339979, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339979 XXXX 1733404339979, Thread 7922: XXXX 1733404339979, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339981 XXXX 1733404339981, Thread 7922: XXXX 1733404339981, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339981 XXXX 1733404339981, Thread 7922: XXXX 1733404339981, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339983 XXXX 1733404339983, Thread 7922: XXXX 1733404339983, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339983 XXXX 1733404339983, Thread 7922: XXXX 1733404339983, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339985 XXXX 1733404339985, Thread 7922: XXXX 1733404339985, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339985 XXXX 1733404339985, Thread 7922: XXXX 1733404339985, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339987 XXXX 1733404339987, Thread 7922: XXXX 1733404339987, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339987 XXXX 1733404339987, Thread 7922: XXXX 1733404339987, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339989 XXXX 1733404339989, Thread 7922: XXXX 1733404339989, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339989 XXXX 1733404339989, Thread 7922: XXXX 1733404339989, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339991 XXXX 1733404339991, Thread 7922: XXXX 1733404339991, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339991 XXXX 1733404339991, Thread 7922: XXXX 1733404339991, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339993 XXXX 1733404339993, Thread 7922: XXXX 1733404339993, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339993 XXXX 1733404339993, Thread 7922: XXXX 1733404339993, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339995 XXXX 1733404339995, Thread 7922: XXXX 1733404339995, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339995 XXXX 1733404339995, Thread 7922: XXXX 1733404339995, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339997 XXXX 1733404339997, Thread 7922: XXXX 1733404339997, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339997 XXXX 1733404339997, Thread 7922: XXXX 1733404339997, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404339999 XXXX 1733404339999, Thread 7922: XXXX 1733404339999, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404339999 XXXX 1733404339999, Thread 7922: XXXX 1733404339999, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340001 XXXX 1733404340001, Thread 7922: XXXX 1733404340001, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340001 XXXX 1733404340001, Thread 7922: XXXX 1733404340001, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340003 XXXX 1733404340003, Thread 7922: XXXX 1733404340003, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340003 XXXX 1733404340003, Thread 7922: XXXX 1733404340003, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340005 XXXX 1733404340005, Thread 7922: XXXX 1733404340005, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340005 XXXX 1733404340005, Thread 7922: XXXX 1733404340005, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340007 XXXX 1733404340007, Thread 7922: XXXX 1733404340007, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340007 XXXX 1733404340007, Thread 7922: XXXX 1733404340007, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340009 XXXX 1733404340009, Thread 7922: XXXX 1733404340009, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340009 XXXX 1733404340009, Thread 7922: XXXX 1733404340009, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340011 XXXX 1733404340011, Thread 7922: XXXX 1733404340011, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340011 XXXX 1733404340011, Thread 7922: XXXX 1733404340011, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340013 XXXX 1733404340013, Thread 7922: XXXX 1733404340013, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340013 XXXX 1733404340013, Thread 7922: XXXX 1733404340013, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340015 XXXX 1733404340015, Thread 7922: XXXX 1733404340015, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340015 XXXX 1733404340015, Thread 7922: XXXX 1733404340015, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340017 XXXX 1733404340017, Thread 7922: XXXX 1733404340017, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340017 XXXX 1733404340017, Thread 7922: XXXX 1733404340017, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340019 XXXX 1733404340019, Thread 7922: XXXX 1733404340019, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340019 XXXX 1733404340019, Thread 7922: XXXX 1733404340019, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340021 XXXX 1733404340021, Thread 7922: XXXX 1733404340021, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340021 XXXX 1733404340021, Thread 7922: XXXX 1733404340021, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340023 XXXX 1733404340023, Thread 7922: XXXX 1733404340023, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340023 XXXX 1733404340023, Thread 7922: XXXX 1733404340023, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340025 XXXX 1733404340025, Thread 7922: XXXX 1733404340025, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340025 XXXX 1733404340025, Thread 7922: XXXX 1733404340025, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340027 XXXX 1733404340027, Thread 7922: XXXX 1733404340027, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340027 XXXX 1733404340027, Thread 7922: XXXX 1733404340027, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340029 XXXX 1733404340029, Thread 7922: XXXX 1733404340029, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340029 XXXX 1733404340029, Thread 7922: XXXX 1733404340029, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340031 XXXX 1733404340031, Thread 7922: XXXX 1733404340031, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340031 XXXX 1733404340031, Thread 7922: XXXX 1733404340031, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340033 XXXX 1733404340033, Thread 7922: XXXX 1733404340033, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340033 XXXX 1733404340033, Thread 7922: XXXX 1733404340033, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340035 XXXX 1733404340035, Thread 7922: XXXX 1733404340035, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340035 XXXX 1733404340035, Thread 7922: XXXX 1733404340035, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340037 XXXX 1733404340037, Thread 7922: XXXX 1733404340037, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340037 XXXX 1733404340037, Thread 7922: XXXX 1733404340037, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340039 XXXX 1733404340039, Thread 7922: XXXX 1733404340039, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340039 XXXX 1733404340039, Thread 7922: XXXX 1733404340039, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340041 XXXX 1733404340041, Thread 7922: XXXX 1733404340041, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340041 XXXX 1733404340041, Thread 7922: XXXX 1733404340041, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340043 XXXX 1733404340043, Thread 7922: XXXX 1733404340043, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340043 XXXX 1733404340043, Thread 7922: XXXX 1733404340043, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340045 XXXX 1733404340045, Thread 7922: XXXX 1733404340045, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340045 XXXX 1733404340045, Thread 7922: XXXX 1733404340045, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340047 XXXX 1733404340047, Thread 7922: XXXX 1733404340047, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340047 XXXX 1733404340047, Thread 7922: XXXX 1733404340047, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340049 XXXX 1733404340049, Thread 7922: XXXX 1733404340049, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340049 XXXX 1733404340049, Thread 7922: XXXX 1733404340049, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340051 XXXX 1733404340051, Thread 7922: XXXX 1733404340051, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340051 XXXX 1733404340051, Thread 7922: XXXX 1733404340051, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340053 XXXX 1733404340053, Thread 7922: XXXX 1733404340053, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340053 XXXX 1733404340053, Thread 7922: XXXX 1733404340053, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340055 XXXX 1733404340055, Thread 7922: XXXX 1733404340055, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340055 XXXX 1733404340055, Thread 7922: XXXX 1733404340055, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340057 XXXX 1733404340057, Thread 7922: XXXX 1733404340057, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340057 XXXX 1733404340057, Thread 7922: XXXX 1733404340057, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340059 XXXX 1733404340059, Thread 7922: XXXX 1733404340059, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340059 XXXX 1733404340059, Thread 7922: XXXX 1733404340059, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340061 XXXX 1733404340061, Thread 7922: XXXX 1733404340061, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340061 XXXX 1733404340061, Thread 7922: XXXX 1733404340061, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340063 XXXX 1733404340063, Thread 7922: XXXX 1733404340063, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340063 XXXX 1733404340063, Thread 7922: XXXX 1733404340063, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340065 XXXX 1733404340065, Thread 7922: XXXX 1733404340065, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340065 XXXX 1733404340065, Thread 7922: XXXX 1733404340065, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340067 XXXX 1733404340067, Thread 7922: XXXX 1733404340067, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340067 XXXX 1733404340067, Thread 7922: XXXX 1733404340067, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340069 XXXX 1733404340069, Thread 7922: XXXX 1733404340069, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340069 XXXX 1733404340069, Thread 7922: XXXX 1733404340069, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340071 XXXX 1733404340071, Thread 7922: XXXX 1733404340071, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340071 XXXX 1733404340071, Thread 7922: XXXX 1733404340071, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340073 XXXX 1733404340073, Thread 7922: XXXX 1733404340073, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340073 XXXX 1733404340073, Thread 7922: XXXX 1733404340073, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340075 XXXX 1733404340075, Thread 7922: XXXX 1733404340075, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340075 XXXX 1733404340075, Thread 7922: XXXX 1733404340075, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340077 XXXX 1733404340077, Thread 7922: XXXX 1733404340077, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340077 XXXX 1733404340077, Thread 7922: XXXX 1733404340077, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340079 XXXX 1733404340079, Thread 7922: XXXX 1733404340079, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340079 XXXX 1733404340079, Thread 7922: XXXX 1733404340079, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340081 XXXX 1733404340081, Thread 7922: XXXX 1733404340081, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340081 XXXX 1733404340081, Thread 7922: XXXX 1733404340081, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340083 XXXX 1733404340083, Thread 7922: XXXX 1733404340083, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340083 XXXX 1733404340083, Thread 7922: XXXX 1733404340083, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340085 XXXX 1733404340085, Thread 7922: XXXX 1733404340085, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340085 XXXX 1733404340085, Thread 7922: XXXX 1733404340085, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340087 XXXX 1733404340087, Thread 7922: XXXX 1733404340087, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340087 XXXX 1733404340087, Thread 7922: XXXX 1733404340087, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340089 XXXX 1733404340089, Thread 7922: XXXX 1733404340089, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340089 XXXX 1733404340089, Thread 7922: XXXX 1733404340089, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340091 XXXX 1733404340091, Thread 7922: XXXX 1733404340091, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340091 XXXX 1733404340091, Thread 7922: XXXX 1733404340091, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340093 XXXX 1733404340093, Thread 7922: XXXX 1733404340093, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340093 XXXX 1733404340093, Thread 7922: XXXX 1733404340093, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340095 XXXX 1733404340095, Thread 7922: XXXX 1733404340095, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340095 XXXX 1733404340095, Thread 7922: XXXX 1733404340095, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340097 XXXX 1733404340097, Thread 7922: XXXX 1733404340097, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340097 XXXX 1733404340097, Thread 7922: XXXX 1733404340097, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340099 XXXX 1733404340099, Thread 7922: XXXX 1733404340099, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340099 XXXX 1733404340099, Thread 7922: XXXX 1733404340099, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340101 XXXX 1733404340101, Thread 7922: XXXX 1733404340101, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340101 XXXX 1733404340101, Thread 7922: XXXX 1733404340101, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340103 XXXX 1733404340103, Thread 7922: XXXX 1733404340103, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340103 XXXX 1733404340103, Thread 7922: XXXX 1733404340103, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340105 XXXX 1733404340105, Thread 7922: XXXX 1733404340105, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340105 XXXX 1733404340105, Thread 7922: XXXX 1733404340105, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340107 XXXX 1733404340107, Thread 7922: XXXX 1733404340107, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340107 XXXX 1733404340107, Thread 7922: XXXX 1733404340107, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340109 XXXX 1733404340109, Thread 7922: XXXX 1733404340109, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340109 XXXX 1733404340109, Thread 7922: XXXX 1733404340109, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340111 XXXX 1733404340111, Thread 7922: XXXX 1733404340111, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340111 XXXX 1733404340111, Thread 7922: XXXX 1733404340111, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340113 XXXX 1733404340113, Thread 7922: XXXX 1733404340113, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340113 XXXX 1733404340113, Thread 7922: XXXX 1733404340113, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340115 XXXX 1733404340115, Thread 7922: XXXX 1733404340115, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340115 XXXX 1733404340115, Thread 7922: XXXX 1733404340115, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340117 XXXX 1733404340117, Thread 7922: XXXX 1733404340117, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340117 XXXX 1733404340117, Thread 7922: XXXX 1733404340117, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340119 XXXX 1733404340119, Thread 7922: XXXX 1733404340119, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340119 XXXX 1733404340119, Thread 7922: XXXX 1733404340119, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340121 XXXX 1733404340121, Thread 7922: XXXX 1733404340121, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340121 XXXX 1733404340121, Thread 7922: XXXX 1733404340121, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340123 XXXX 1733404340123, Thread 7922: XXXX 1733404340123, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340123 XXXX 1733404340123, Thread 7922: XXXX 1733404340123, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340125 XXXX 1733404340125, Thread 7922: XXXX 1733404340125, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340125 XXXX 1733404340125, Thread 7922: XXXX 1733404340125, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340127 XXXX 1733404340127, Thread 7922: XXXX 1733404340127, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340127 XXXX 1733404340127, Thread 7922: XXXX 1733404340127, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340129 XXXX 1733404340129, Thread 7922: XXXX 1733404340129, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340129 XXXX 1733404340129, Thread 7922: XXXX 1733404340129, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340131 XXXX 1733404340131, Thread 7922: XXXX 1733404340131, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340131 XXXX 1733404340131, Thread 7922: XXXX 1733404340131, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340133 XXXX 1733404340133, Thread 7922: XXXX 1733404340133, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340133 XXXX 1733404340133, Thread 7922: XXXX 1733404340133, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340135 XXXX 1733404340135, Thread 7922: XXXX 1733404340135, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340135 XXXX 1733404340135, Thread 7922: XXXX 1733404340135, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340137 XXXX 1733404340137, Thread 7922: XXXX 1733404340137, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340137 XXXX 1733404340137, Thread 7922: XXXX 1733404340137, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340139 XXXX 1733404340139, Thread 7922: XXXX 1733404340139, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340139 XXXX 1733404340139, Thread 7922: XXXX 1733404340139, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340141 XXXX 1733404340141, Thread 7922: XXXX 1733404340141, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340141 XXXX 1733404340141, Thread 7922: XXXX 1733404340141, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340143 XXXX 1733404340143, Thread 7922: XXXX 1733404340143, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340143 XXXX 1733404340143, Thread 7922: XXXX 1733404340143, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340145 XXXX 1733404340145, Thread 7922: XXXX 1733404340145, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340145 XXXX 1733404340145, Thread 7922: XXXX 1733404340145, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340147 XXXX 1733404340147, Thread 7922: XXXX 1733404340147, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340147 XXXX 1733404340147, Thread 7922: XXXX 1733404340147, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340149 XXXX 1733404340149, Thread 7922: XXXX 1733404340149, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340149 XXXX 1733404340149, Thread 7922: XXXX 1733404340149, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340151 XXXX 1733404340151, Thread 7922: XXXX 1733404340151, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340151 XXXX 1733404340151, Thread 7922: XXXX 1733404340151, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340153 XXXX 1733404340153, Thread 7922: XXXX 1733404340153, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340153 XXXX 1733404340153, Thread 7922: XXXX 1733404340153, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340155 XXXX 1733404340155, Thread 7922: XXXX 1733404340155, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340155 XXXX 1733404340155, Thread 7922: XXXX 1733404340155, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340157 XXXX 1733404340157, Thread 7922: XXXX 1733404340157, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340157 XXXX 1733404340157, Thread 7922: XXXX 1733404340157, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340159 XXXX 1733404340159, Thread 7922: XXXX 1733404340159, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340159 XXXX 1733404340159, Thread 7922: XXXX 1733404340159, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340161 XXXX 1733404340161, Thread 7922: XXXX 1733404340161, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340161 XXXX 1733404340161, Thread 7922: XXXX 1733404340161, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340163 XXXX 1733404340163, Thread 7922: XXXX 1733404340163, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340163 XXXX 1733404340163, Thread 7922: XXXX 1733404340163, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340165 XXXX 1733404340165, Thread 7922: XXXX 1733404340165, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340165 XXXX 1733404340165, Thread 7922: XXXX 1733404340165, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340167 XXXX 1733404340167, Thread 7922: XXXX 1733404340167, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340167 XXXX 1733404340167, Thread 7922: XXXX 1733404340167, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340169 XXXX 1733404340169, Thread 7922: XXXX 1733404340169, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340169 XXXX 1733404340169, Thread 7922: XXXX 1733404340169, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340171 XXXX 1733404340171, Thread 7922: XXXX 1733404340171, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340171 XXXX 1733404340171, Thread 7922: XXXX 1733404340171, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340173 XXXX 1733404340173, Thread 7922: XXXX 1733404340173, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340173 XXXX 1733404340173, Thread 7922: XXXX 1733404340173, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340175 XXXX 1733404340175, Thread 7922: XXXX 1733404340175, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340175 XXXX 1733404340175, Thread 7922: XXXX 1733404340175, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340177 XXXX 1733404340177, Thread 7922: XXXX 1733404340177, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340177 XXXX 1733404340177, Thread 7922: XXXX 1733404340177, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340179 XXXX 1733404340179, Thread 7922: XXXX 1733404340179, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340179 XXXX 1733404340179, Thread 7922: XXXX 1733404340179, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340181 XXXX 1733404340181, Thread 7922: XXXX 1733404340181, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340181 XXXX 1733404340181, Thread 7922: XXXX 1733404340181, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340183 XXXX 1733404340183, Thread 7922: XXXX 1733404340183, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340183 XXXX 1733404340183, Thread 7922: XXXX 1733404340183, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340185 XXXX 1733404340185, Thread 7922: XXXX 1733404340185, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340185 XXXX 1733404340185, Thread 7922: XXXX 1733404340185, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340187 XXXX 1733404340187, Thread 7922: XXXX 1733404340187, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340187 XXXX 1733404340187, Thread 7922: XXXX 1733404340187, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340188 XXXX 1733404340188, Thread 7922: XXXX 1733404340188, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340188 XXXX 1733404340188, Thread 7922: XXXX 1733404340188, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340190 XXXX 1733404340190, Thread 7922: XXXX 1733404340190, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340190 XXXX 1733404340190, Thread 7922: XXXX 1733404340190, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340192 XXXX 1733404340192, Thread 7922: XXXX 1733404340192, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340192 XXXX 1733404340192, Thread 7922: XXXX 1733404340192, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340194 XXXX 1733404340194, Thread 7922: XXXX 1733404340194, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340194 XXXX 1733404340194, Thread 7922: XXXX 1733404340194, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340196 XXXX 1733404340196, Thread 7922: XXXX 1733404340196, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340196 XXXX 1733404340196, Thread 7922: XXXX 1733404340196, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340198 XXXX 1733404340198, Thread 7922: XXXX 1733404340198, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340198 XXXX 1733404340198, Thread 7922: XXXX 1733404340198, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340200 XXXX 1733404340200, Thread 7922: XXXX 1733404340200, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340200 XXXX 1733404340200, Thread 7922: XXXX 1733404340200, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340202 XXXX 1733404340202, Thread 7922: XXXX 1733404340202, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340202 XXXX 1733404340202, Thread 7922: XXXX 1733404340202, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340205 XXXX 1733404340205, Thread 7922: XXXX 1733404340205, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340205 XXXX 1733404340205, Thread 7922: XXXX 1733404340205, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340207 XXXX 1733404340207, Thread 7922: XXXX 1733404340207, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340207 XXXX 1733404340207, Thread 7922: XXXX 1733404340207, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340209 XXXX 1733404340209, Thread 7922: XXXX 1733404340209, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340209 XXXX 1733404340209, Thread 7922: XXXX 1733404340209, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340211 XXXX 1733404340211, Thread 7922: XXXX 1733404340211, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340211 XXXX 1733404340211, Thread 7922: XXXX 1733404340211, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340213 XXXX 1733404340213, Thread 7922: XXXX 1733404340213, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340213 XXXX 1733404340213, Thread 7922: XXXX 1733404340213, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340215 XXXX 1733404340215, Thread 7922: XXXX 1733404340215, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340215 XXXX 1733404340215, Thread 7922: XXXX 1733404340215, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340217 XXXX 1733404340217, Thread 7922: XXXX 1733404340217, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340217 XXXX 1733404340217, Thread 7922: XXXX 1733404340217, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340219 XXXX 1733404340219, Thread 7922: XXXX 1733404340219, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340219 XXXX 1733404340219, Thread 7922: XXXX 1733404340219, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340221 XXXX 1733404340221, Thread 7922: XXXX 1733404340221, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340221 XXXX 1733404340221, Thread 7922: XXXX 1733404340221, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340223 XXXX 1733404340223, Thread 7922: XXXX 1733404340223, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340223 XXXX 1733404340223, Thread 7922: XXXX 1733404340223, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340225 XXXX 1733404340225, Thread 7922: XXXX 1733404340225, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340225 XXXX 1733404340225, Thread 7922: XXXX 1733404340225, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340227 XXXX 1733404340227, Thread 7922: XXXX 1733404340227, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340227 XXXX 1733404340227, Thread 7922: XXXX 1733404340227, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340229 XXXX 1733404340229, Thread 7922: XXXX 1733404340229, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340229 XXXX 1733404340229, Thread 7922: XXXX 1733404340229, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340231 XXXX 1733404340231, Thread 7922: XXXX 1733404340231, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340231 XXXX 1733404340231, Thread 7922: XXXX 1733404340231, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340233 XXXX 1733404340233, Thread 7922: XXXX 1733404340233, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340233 XXXX 1733404340233, Thread 7922: XXXX 1733404340233, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340235 XXXX 1733404340235, Thread 7922: XXXX 1733404340235, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340235 XXXX 1733404340235, Thread 7922: XXXX 1733404340235, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340237 XXXX 1733404340237, Thread 7922: XXXX 1733404340237, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340237 XXXX 1733404340237, Thread 7922: XXXX 1733404340237, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340239 XXXX 1733404340239, Thread 7922: XXXX 1733404340239, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340239 XXXX 1733404340239, Thread 7922: XXXX 1733404340239, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340241 XXXX 1733404340241, Thread 7922: XXXX 1733404340241, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340241 XXXX 1733404340241, Thread 7922: XXXX 1733404340241, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340243 XXXX 1733404340243, Thread 7922: XXXX 1733404340243, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340243 XXXX 1733404340243, Thread 7922: XXXX 1733404340243, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340245 XXXX 1733404340245, Thread 7922: XXXX 1733404340245, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340245 XXXX 1733404340245, Thread 7922: XXXX 1733404340245, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340247 XXXX 1733404340247, Thread 7922: XXXX 1733404340247, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340247 XXXX 1733404340247, Thread 7922: XXXX 1733404340247, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340249 XXXX 1733404340249, Thread 7922: XXXX 1733404340249, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340249 XXXX 1733404340249, Thread 7922: XXXX 1733404340249, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340251 XXXX 1733404340251, Thread 7922: XXXX 1733404340251, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340251 XXXX 1733404340251, Thread 7922: XXXX 1733404340251, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340253 XXXX 1733404340253, Thread 7922: XXXX 1733404340253, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340253 XXXX 1733404340253, Thread 7922: XXXX 1733404340253, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340255 XXXX 1733404340255, Thread 7922: XXXX 1733404340255, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340255 XXXX 1733404340255, Thread 7922: XXXX 1733404340255, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340257 XXXX 1733404340257, Thread 7922: XXXX 1733404340257, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340257 XXXX 1733404340257, Thread 7922: XXXX 1733404340257, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340259 XXXX 1733404340259, Thread 7922: XXXX 1733404340259, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340259 XXXX 1733404340259, Thread 7922: XXXX 1733404340259, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340261 XXXX 1733404340261, Thread 7922: XXXX 1733404340261, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340261 XXXX 1733404340261, Thread 7922: XXXX 1733404340261, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340263 XXXX 1733404340263, Thread 7922: XXXX 1733404340263, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340263 XXXX 1733404340263, Thread 7922: XXXX 1733404340263, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340265 XXXX 1733404340265, Thread 7922: XXXX 1733404340265, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340265 XXXX 1733404340265, Thread 7922: XXXX 1733404340265, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340267 XXXX 1733404340267, Thread 7922: XXXX 1733404340267, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340267 XXXX 1733404340267, Thread 7922: XXXX 1733404340267, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340269 XXXX 1733404340269, Thread 7922: XXXX 1733404340269, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340269 XXXX 1733404340269, Thread 7922: XXXX 1733404340269, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340271 XXXX 1733404340271, Thread 7922: XXXX 1733404340271, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340271 XXXX 1733404340271, Thread 7922: XXXX 1733404340271, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340273 XXXX 1733404340273, Thread 7922: XXXX 1733404340273, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340273 XXXX 1733404340273, Thread 7922: XXXX 1733404340273, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340275 XXXX 1733404340275, Thread 7922: XXXX 1733404340275, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340275 XXXX 1733404340275, Thread 7922: XXXX 1733404340275, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340277 XXXX 1733404340277, Thread 7922: XXXX 1733404340277, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340277 XXXX 1733404340277, Thread 7922: XXXX 1733404340277, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340278 XXXX 1733404340278, Thread 7922: XXXX 1733404340278, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340278 XXXX 1733404340278, Thread 7922: XXXX 1733404340278, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340280 XXXX 1733404340280, Thread 7922: XXXX 1733404340280, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340280 XXXX 1733404340280, Thread 7922: XXXX 1733404340280, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340282 XXXX 1733404340282, Thread 7922: XXXX 1733404340282, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340282 XXXX 1733404340282, Thread 7922: XXXX 1733404340282, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340284 XXXX 1733404340284, Thread 7922: XXXX 1733404340284, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340284 XXXX 1733404340284, Thread 7922: XXXX 1733404340284, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340286 XXXX 1733404340286, Thread 7922: XXXX 1733404340286, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340286 XXXX 1733404340286, Thread 7922: XXXX 1733404340286, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340288 XXXX 1733404340288, Thread 7922: XXXX 1733404340288, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340288 XXXX 1733404340288, Thread 7922: XXXX 1733404340288, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340291 XXXX 1733404340291, Thread 7922: XXXX 1733404340291, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340291 XXXX 1733404340291, Thread 7922: XXXX 1733404340291, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340292 XXXX 1733404340292, Thread 7922: XXXX 1733404340292, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340292 XXXX 1733404340292, Thread 7922: XXXX 1733404340292, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340295 XXXX 1733404340295, Thread 7922: XXXX 1733404340295, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340295 XXXX 1733404340295, Thread 7922: XXXX 1733404340295, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340297 XXXX 1733404340297, Thread 7922: XXXX 1733404340297, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340297 XXXX 1733404340297, Thread 7922: XXXX 1733404340297, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340299 XXXX 1733404340299, Thread 7922: XXXX 1733404340299, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340299 XXXX 1733404340299, Thread 7922: XXXX 1733404340299, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340301 XXXX 1733404340301, Thread 7922: XXXX 1733404340301, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340301 XXXX 1733404340301, Thread 7922: XXXX 1733404340301, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340303 XXXX 1733404340303, Thread 7922: XXXX 1733404340303, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340303 XXXX 1733404340303, Thread 7922: XXXX 1733404340303, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340305 XXXX 1733404340305, Thread 7922: XXXX 1733404340305, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340305 XXXX 1733404340305, Thread 7922: XXXX 1733404340305, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340307 XXXX 1733404340307, Thread 7922: XXXX 1733404340307, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340307 XXXX 1733404340307, Thread 7922: XXXX 1733404340307, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340309 XXXX 1733404340309, Thread 7922: XXXX 1733404340309, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340309 XXXX 1733404340309, Thread 7922: XXXX 1733404340309, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340311 XXXX 1733404340311, Thread 7922: XXXX 1733404340311, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340311 XXXX 1733404340311, Thread 7922: XXXX 1733404340311, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340313 XXXX 1733404340313, Thread 7922: XXXX 1733404340313, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340313 XXXX 1733404340313, Thread 7922: XXXX 1733404340313, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340315 XXXX 1733404340315, Thread 7922: XXXX 1733404340315, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340315 XXXX 1733404340315, Thread 7922: XXXX 1733404340315, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340317 XXXX 1733404340317, Thread 7922: XXXX 1733404340317, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340317 XXXX 1733404340317, Thread 7922: XXXX 1733404340317, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340319 XXXX 1733404340319, Thread 7922: XXXX 1733404340319, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340319 XXXX 1733404340319, Thread 7922: XXXX 1733404340319, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340321 XXXX 1733404340321, Thread 7922: XXXX 1733404340321, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340321 XXXX 1733404340321, Thread 7922: XXXX 1733404340321, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340323 XXXX 1733404340323, Thread 7922: XXXX 1733404340323, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340323 XXXX 1733404340323, Thread 7922: XXXX 1733404340323, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340325 XXXX 1733404340325, Thread 7922: XXXX 1733404340325, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340325 XXXX 1733404340325, Thread 7922: XXXX 1733404340325, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340327 XXXX 1733404340327, Thread 7922: XXXX 1733404340327, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340327 XXXX 1733404340327, Thread 7922: XXXX 1733404340327, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340329 XXXX 1733404340329, Thread 7922: XXXX 1733404340329, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340329 XXXX 1733404340329, Thread 7922: XXXX 1733404340329, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340331 XXXX 1733404340331, Thread 7922: XXXX 1733404340331, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340331 XXXX 1733404340331, Thread 7922: XXXX 1733404340331, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340333 XXXX 1733404340333, Thread 7922: XXXX 1733404340333, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340333 XXXX 1733404340333, Thread 7922: XXXX 1733404340333, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340336 XXXX 1733404340336, Thread 7922: XXXX 1733404340336, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340336 XXXX 1733404340336, Thread 7922: XXXX 1733404340336, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340338 XXXX 1733404340338, Thread 7922: XXXX 1733404340338, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340338 XXXX 1733404340338, Thread 7922: XXXX 1733404340338, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340340 XXXX 1733404340340, Thread 7922: XXXX 1733404340340, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340340 XXXX 1733404340340, Thread 7922: XXXX 1733404340340, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340342 XXXX 1733404340342, Thread 7922: XXXX 1733404340342, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340342 XXXX 1733404340342, Thread 7922: XXXX 1733404340342, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340344 XXXX 1733404340344, Thread 7922: XXXX 1733404340344, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340344 XXXX 1733404340344, Thread 7922: XXXX 1733404340344, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340346 XXXX 1733404340346, Thread 7922: XXXX 1733404340346, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340346 XXXX 1733404340346, Thread 7922: XXXX 1733404340346, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340348 XXXX 1733404340348, Thread 7922: XXXX 1733404340348, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340348 XXXX 1733404340348, Thread 7922: XXXX 1733404340348, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340350 XXXX 1733404340350, Thread 7922: XXXX 1733404340350, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340350 XXXX 1733404340350, Thread 7922: XXXX 1733404340350, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340352 XXXX 1733404340352, Thread 7922: XXXX 1733404340352, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340352 XXXX 1733404340352, Thread 7922: XXXX 1733404340352, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340354 XXXX 1733404340354, Thread 7922: XXXX 1733404340354, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340354 XXXX 1733404340354, Thread 7922: XXXX 1733404340354, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340356 XXXX 1733404340356, Thread 7922: XXXX 1733404340356, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340356 XXXX 1733404340356, Thread 7922: XXXX 1733404340356, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340357 XXXX 1733404340357, Thread 7922: XXXX 1733404340357, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340357 XXXX 1733404340357, Thread 7922: XXXX 1733404340357, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340359 XXXX 1733404340359, Thread 7922: XXXX 1733404340359, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340359 XXXX 1733404340359, Thread 7922: XXXX 1733404340359, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340361 XXXX 1733404340361, Thread 7922: XXXX 1733404340361, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340361 XXXX 1733404340361, Thread 7922: XXXX 1733404340361, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340363 XXXX 1733404340363, Thread 7922: XXXX 1733404340363, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340363 XXXX 1733404340363, Thread 7922: XXXX 1733404340363, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340365 XXXX 1733404340365, Thread 7922: XXXX 1733404340365, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340365 XXXX 1733404340365, Thread 7922: XXXX 1733404340365, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340367 XXXX 1733404340367, Thread 7922: XXXX 1733404340367, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340367 XXXX 1733404340367, Thread 7922: XXXX 1733404340367, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340369 XXXX 1733404340369, Thread 7922: XXXX 1733404340369, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340369 XXXX 1733404340369, Thread 7922: XXXX 1733404340369, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340371 XXXX 1733404340371, Thread 7922: XXXX 1733404340371, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340371 XXXX 1733404340371, Thread 7922: XXXX 1733404340371, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340374 XXXX 1733404340374, Thread 7922: XXXX 1733404340374, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340374 XXXX 1733404340374, Thread 7922: XXXX 1733404340374, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340376 XXXX 1733404340376, Thread 7922: XXXX 1733404340376, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340376 XXXX 1733404340376, Thread 7922: XXXX 1733404340376, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340378 XXXX 1733404340378, Thread 7922: XXXX 1733404340378, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340378 XXXX 1733404340378, Thread 7922: XXXX 1733404340378, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340380 XXXX 1733404340380, Thread 7922: XXXX 1733404340380, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340380 XXXX 1733404340380, Thread 7922: XXXX 1733404340380, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340382 XXXX 1733404340382, Thread 7922: XXXX 1733404340382, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340382 XXXX 1733404340382, Thread 7922: XXXX 1733404340382, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340384 XXXX 1733404340384, Thread 7922: XXXX 1733404340384, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340384 XXXX 1733404340384, Thread 7922: XXXX 1733404340384, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340386 XXXX 1733404340386, Thread 7922: XXXX 1733404340386, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340386 XXXX 1733404340386, Thread 7922: XXXX 1733404340386, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340388 XXXX 1733404340388, Thread 7922: XXXX 1733404340388, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340388 XXXX 1733404340388, Thread 7922: XXXX 1733404340388, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340390 XXXX 1733404340390, Thread 7922: XXXX 1733404340390, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340390 XXXX 1733404340390, Thread 7922: XXXX 1733404340390, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340392 XXXX 1733404340392, Thread 7922: XXXX 1733404340392, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340392 XXXX 1733404340392, Thread 7922: XXXX 1733404340392, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340394 XXXX 1733404340394, Thread 7922: XXXX 1733404340394, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340394 XXXX 1733404340394, Thread 7922: XXXX 1733404340394, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340397 XXXX 1733404340397, Thread 7922: XXXX 1733404340397, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340397 XXXX 1733404340397, Thread 7922: XXXX 1733404340397, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340398 XXXX 1733404340398, Thread 7922: XXXX 1733404340398, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340398 XXXX 1733404340398, Thread 7922: XXXX 1733404340398, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340400 XXXX 1733404340400, Thread 7922: XXXX 1733404340400, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340400 XXXX 1733404340400, Thread 7922: XXXX 1733404340400, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340402 XXXX 1733404340402, Thread 7922: XXXX 1733404340402, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340402 XXXX 1733404340402, Thread 7922: XXXX 1733404340402, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340404 XXXX 1733404340404, Thread 7922: XXXX 1733404340404, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340404 XXXX 1733404340404, Thread 7922: XXXX 1733404340404, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340406 XXXX 1733404340406, Thread 7922: XXXX 1733404340406, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340406 XXXX 1733404340406, Thread 7922: XXXX 1733404340406, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340407 XXXX 1733404340407, Thread 7922: XXXX 1733404340407, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340407 XXXX 1733404340407, Thread 7922: XXXX 1733404340407, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340409 XXXX 1733404340409, Thread 7922: XXXX 1733404340409, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340409 XXXX 1733404340409, Thread 7922: XXXX 1733404340409, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340411 XXXX 1733404340411, Thread 7922: XXXX 1733404340411, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340412 XXXX 1733404340412, Thread 7922: XXXX 1733404340412, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340413 XXXX 1733404340413, Thread 7922: XXXX 1733404340413, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340413 XXXX 1733404340413, Thread 7922: XXXX 1733404340413, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340415 XXXX 1733404340415, Thread 7922: XXXX 1733404340415, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340415 XXXX 1733404340415, Thread 7922: XXXX 1733404340415, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340417 XXXX 1733404340417, Thread 7922: XXXX 1733404340417, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340417 XXXX 1733404340417, Thread 7922: XXXX 1733404340417, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340419 XXXX 1733404340419, Thread 7922: XXXX 1733404340419, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340419 XXXX 1733404340419, Thread 7922: XXXX 1733404340419, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340421 XXXX 1733404340421, Thread 7922: XXXX 1733404340421, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340421 XXXX 1733404340421, Thread 7922: XXXX 1733404340421, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340423 XXXX 1733404340423, Thread 7922: XXXX 1733404340423, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340423 XXXX 1733404340423, Thread 7922: XXXX 1733404340423, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340425 XXXX 1733404340425, Thread 7922: XXXX 1733404340425, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340426 XXXX 1733404340426, Thread 7922: XXXX 1733404340426, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340428 XXXX 1733404340428, Thread 7922: XXXX 1733404340428, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340428 XXXX 1733404340428, Thread 7922: XXXX 1733404340428, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340429 XXXX 1733404340429, Thread 7922: XXXX 1733404340429, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340430 XXXX 1733404340430, Thread 7922: XXXX 1733404340430, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340431 XXXX 1733404340431, Thread 7922: XXXX 1733404340431, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340431 XXXX 1733404340431, Thread 7922: XXXX 1733404340431, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340433 XXXX 1733404340433, Thread 7922: XXXX 1733404340433, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340433 XXXX 1733404340433, Thread 7922: XXXX 1733404340433, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340435 XXXX 1733404340435, Thread 7922: XXXX 1733404340435, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340435 XXXX 1733404340435, Thread 7922: XXXX 1733404340435, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340437 XXXX 1733404340437, Thread 7922: XXXX 1733404340437, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340437 XXXX 1733404340437, Thread 7922: XXXX 1733404340437, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340439 XXXX 1733404340439, Thread 7922: XXXX 1733404340439, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340439 XXXX 1733404340439, Thread 7922: XXXX 1733404340439, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340441 XXXX 1733404340441, Thread 7922: XXXX 1733404340441, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340441 XXXX 1733404340441, Thread 7922: XXXX 1733404340441, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340443 XXXX 1733404340443, Thread 7922: XXXX 1733404340443, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340443 XXXX 1733404340443, Thread 7922: XXXX 1733404340443, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340445 XXXX 1733404340445, Thread 7922: XXXX 1733404340445, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340445 XXXX 1733404340445, Thread 7922: XXXX 1733404340445, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340447 XXXX 1733404340447, Thread 7922: XXXX 1733404340447, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340448 XXXX 1733404340448, Thread 7922: XXXX 1733404340448, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340449 XXXX 1733404340449, Thread 7922: XXXX 1733404340449, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340449 XXXX 1733404340449, Thread 7922: XXXX 1733404340449, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340451 XXXX 1733404340451, Thread 7922: XXXX 1733404340451, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340452 XXXX 1733404340451, Thread 7922: XXXX 1733404340451, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340453 XXXX 1733404340453, Thread 7922: XXXX 1733404340453, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340453 XXXX 1733404340453, Thread 7922: XXXX 1733404340453, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340455 XXXX 1733404340455, Thread 7922: XXXX 1733404340455, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340455 XXXX 1733404340455, Thread 7922: XXXX 1733404340455, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340457 XXXX 1733404340457, Thread 7922: XXXX 1733404340457, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340457 XXXX 1733404340457, Thread 7922: XXXX 1733404340457, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340460 XXXX 1733404340460, Thread 7922: XXXX 1733404340460, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340460 XXXX 1733404340460, Thread 7922: XXXX 1733404340460, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340461 XXXX 1733404340461, Thread 7922: XXXX 1733404340461, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340461 XXXX 1733404340461, Thread 7922: XXXX 1733404340461, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340463 XXXX 1733404340463, Thread 7922: XXXX 1733404340463, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340463 XXXX 1733404340463, Thread 7922: XXXX 1733404340463, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340465 XXXX 1733404340465, Thread 7922: XXXX 1733404340465, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340465 XXXX 1733404340465, Thread 7922: XXXX 1733404340465, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340467 XXXX 1733404340467, Thread 7922: XXXX 1733404340467, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340467 XXXX 1733404340467, Thread 7922: XXXX 1733404340467, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340469 XXXX 1733404340469, Thread 7922: XXXX 1733404340469, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340469 XXXX 1733404340469, Thread 7922: XXXX 1733404340469, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340471 XXXX 1733404340471, Thread 7922: XXXX 1733404340471, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340471 XXXX 1733404340471, Thread 7922: XXXX 1733404340471, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340473 XXXX 1733404340473, Thread 7922: XXXX 1733404340473, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340473 XXXX 1733404340473, Thread 7922: XXXX 1733404340473, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340475 XXXX 1733404340475, Thread 7922: XXXX 1733404340475, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340475 XXXX 1733404340475, Thread 7922: XXXX 1733404340475, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340477 XXXX 1733404340477, Thread 7922: XXXX 1733404340477, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340478 XXXX 1733404340478, Thread 7922: XXXX 1733404340478, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340479 XXXX 1733404340479, Thread 7922: XXXX 1733404340479, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340479 XXXX 1733404340479, Thread 7922: XXXX 1733404340479, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340481 XXXX 1733404340481, Thread 7922: XXXX 1733404340481, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340481 XXXX 1733404340481, Thread 7922: XXXX 1733404340481, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340483 XXXX 1733404340483, Thread 7922: XXXX 1733404340483, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340483 XXXX 1733404340483, Thread 7922: XXXX 1733404340483, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340485 XXXX 1733404340485, Thread 7922: XXXX 1733404340485, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340485 XXXX 1733404340485, Thread 7922: XXXX 1733404340485, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340487 XXXX 1733404340487, Thread 7922: XXXX 1733404340487, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340487 XXXX 1733404340487, Thread 7922: XXXX 1733404340487, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340490 XXXX 1733404340490, Thread 7922: XXXX 1733404340490, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340490 XXXX 1733404340490, Thread 7922: XXXX 1733404340490, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340492 XXXX 1733404340492, Thread 7922: XXXX 1733404340492, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340492 XXXX 1733404340492, Thread 7922: XXXX 1733404340492, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340494 XXXX 1733404340494, Thread 7922: XXXX 1733404340494, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340494 XXXX 1733404340494, Thread 7922: XXXX 1733404340494, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340496 XXXX 1733404340496, Thread 7922: XXXX 1733404340496, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340496 XXXX 1733404340496, Thread 7922: XXXX 1733404340496, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340498 XXXX 1733404340498, Thread 7922: XXXX 1733404340498, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340498 XXXX 1733404340498, Thread 7922: XXXX 1733404340498, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340500 XXXX 1733404340500, Thread 7922: XXXX 1733404340500, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340500 XXXX 1733404340500, Thread 7922: XXXX 1733404340500, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340502 XXXX 1733404340502, Thread 7922: XXXX 1733404340502, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340502 XXXX 1733404340502, Thread 7922: XXXX 1733404340502, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340504 XXXX 1733404340504, Thread 7922: XXXX 1733404340504, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340504 XXXX 1733404340504, Thread 7922: XXXX 1733404340504, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340506 XXXX 1733404340506, Thread 7922: XXXX 1733404340506, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340506 XXXX 1733404340506, Thread 7922: XXXX 1733404340506, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340508 XXXX 1733404340508, Thread 7922: XXXX 1733404340508, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340508 XXXX 1733404340508, Thread 7922: XXXX 1733404340508, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340509 XXXX 1733404340509, Thread 7922: XXXX 1733404340509, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340509 XXXX 1733404340509, Thread 7922: XXXX 1733404340509, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340512 XXXX 1733404340512, Thread 7922: XXXX 1733404340512, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340512 XXXX 1733404340512, Thread 7922: XXXX 1733404340512, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340514 XXXX 1733404340514, Thread 7922: XXXX 1733404340514, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340514 XXXX 1733404340514, Thread 7922: XXXX 1733404340514, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340517 XXXX 1733404340517, Thread 7922: XXXX 1733404340517, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340517 XXXX 1733404340517, Thread 7922: XXXX 1733404340517, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340520 XXXX 1733404340520, Thread 7922: XXXX 1733404340520, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340520 XXXX 1733404340520, Thread 7922: XXXX 1733404340520, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340522 XXXX 1733404340522, Thread 7922: XXXX 1733404340522, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340522 XXXX 1733404340522, Thread 7922: XXXX 1733404340522, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340524 XXXX 1733404340524, Thread 7922: XXXX 1733404340524, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340524 XXXX 1733404340524, Thread 7922: XXXX 1733404340524, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340526 XXXX 1733404340526, Thread 7922: XXXX 1733404340526, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340526 XXXX 1733404340526, Thread 7922: XXXX 1733404340526, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340528 XXXX 1733404340528, Thread 7922: XXXX 1733404340528, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340528 XXXX 1733404340528, Thread 7922: XXXX 1733404340528, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340530 XXXX 1733404340530, Thread 7922: XXXX 1733404340530, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340530 XXXX 1733404340530, Thread 7922: XXXX 1733404340530, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340532 XXXX 1733404340532, Thread 7922: XXXX 1733404340532, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340532 XXXX 1733404340532, Thread 7922: XXXX 1733404340532, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340534 XXXX 1733404340534, Thread 7922: XXXX 1733404340534, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340534 XXXX 1733404340534, Thread 7922: XXXX 1733404340534, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340536 XXXX 1733404340536, Thread 7922: XXXX 1733404340536, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340536 XXXX 1733404340536, Thread 7922: XXXX 1733404340536, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340539 XXXX 1733404340539, Thread 7922: XXXX 1733404340539, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340539 XXXX 1733404340539, Thread 7922: XXXX 1733404340539, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340540 XXXX 1733404340540, Thread 7922: XXXX 1733404340540, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340540 XXXX 1733404340540, Thread 7922: XXXX 1733404340540, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340542 XXXX 1733404340542, Thread 7922: XXXX 1733404340542, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340542 XXXX 1733404340542, Thread 7922: XXXX 1733404340542, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340544 XXXX 1733404340544, Thread 7922: XXXX 1733404340544, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340544 XXXX 1733404340544, Thread 7922: XXXX 1733404340544, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340546 XXXX 1733404340546, Thread 7922: XXXX 1733404340546, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340546 XXXX 1733404340546, Thread 7922: XXXX 1733404340546, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340548 XXXX 1733404340548, Thread 7922: XXXX 1733404340548, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340548 XXXX 1733404340548, Thread 7922: XXXX 1733404340548, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340550 XXXX 1733404340550, Thread 7922: XXXX 1733404340550, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340550 XXXX 1733404340550, Thread 7922: XXXX 1733404340550, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340552 XXXX 1733404340552, Thread 7922: XXXX 1733404340552, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340552 XXXX 1733404340552, Thread 7922: XXXX 1733404340552, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340554 XXXX 1733404340554, Thread 7922: XXXX 1733404340554, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340554 XXXX 1733404340554, Thread 7922: XXXX 1733404340554, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340556 XXXX 1733404340556, Thread 7922: XXXX 1733404340556, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340556 XXXX 1733404340556, Thread 7922: XXXX 1733404340556, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340558 XXXX 1733404340558, Thread 7922: XXXX 1733404340558, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340558 XXXX 1733404340558, Thread 7922: XXXX 1733404340558, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340560 XXXX 1733404340560, Thread 7922: XXXX 1733404340560, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340560 XXXX 1733404340560, Thread 7922: XXXX 1733404340560, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340562 XXXX 1733404340562, Thread 7922: XXXX 1733404340562, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340562 XXXX 1733404340562, Thread 7922: XXXX 1733404340562, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340564 XXXX 1733404340564, Thread 7922: XXXX 1733404340564, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340564 XXXX 1733404340564, Thread 7922: XXXX 1733404340564, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340566 XXXX 1733404340566, Thread 7922: XXXX 1733404340566, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340566 XXXX 1733404340566, Thread 7922: XXXX 1733404340566, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340568 XXXX 1733404340568, Thread 7922: XXXX 1733404340568, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340568 XXXX 1733404340568, Thread 7922: XXXX 1733404340568, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340570 XXXX 1733404340570, Thread 7922: XXXX 1733404340570, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340570 XXXX 1733404340570, Thread 7922: XXXX 1733404340570, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340572 XXXX 1733404340572, Thread 7922: XXXX 1733404340572, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340572 XXXX 1733404340572, Thread 7922: XXXX 1733404340572, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340574 XXXX 1733404340574, Thread 7922: XXXX 1733404340574, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340574 XXXX 1733404340574, Thread 7922: XXXX 1733404340574, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340576 XXXX 1733404340576, Thread 7922: XXXX 1733404340576, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340576 XXXX 1733404340576, Thread 7922: XXXX 1733404340576, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340578 XXXX 1733404340578, Thread 7922: XXXX 1733404340578, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340578 XXXX 1733404340578, Thread 7922: XXXX 1733404340578, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340580 XXXX 1733404340580, Thread 7922: XXXX 1733404340580, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340580 XXXX 1733404340580, Thread 7922: XXXX 1733404340580, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340582 XXXX 1733404340582, Thread 7922: XXXX 1733404340582, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340582 XXXX 1733404340582, Thread 7922: XXXX 1733404340582, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340584 XXXX 1733404340584, Thread 7922: XXXX 1733404340584, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340584 XXXX 1733404340584, Thread 7922: XXXX 1733404340584, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340586 XXXX 1733404340586, Thread 7922: XXXX 1733404340586, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340586 XXXX 1733404340586, Thread 7922: XXXX 1733404340586, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340588 XXXX 1733404340588, Thread 7922: XXXX 1733404340588, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340588 XXXX 1733404340588, Thread 7922: XXXX 1733404340588, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340590 XXXX 1733404340590, Thread 7922: XXXX 1733404340590, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340590 XXXX 1733404340590, Thread 7922: XXXX 1733404340590, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340592 XXXX 1733404340592, Thread 7922: XXXX 1733404340592, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340592 XXXX 1733404340592, Thread 7922: XXXX 1733404340592, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340594 XXXX 1733404340594, Thread 7922: XXXX 1733404340594, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340594 XXXX 1733404340594, Thread 7922: XXXX 1733404340594, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340596 XXXX 1733404340596, Thread 7922: XXXX 1733404340596, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340596 XXXX 1733404340596, Thread 7922: XXXX 1733404340596, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340598 XXXX 1733404340598, Thread 7922: XXXX 1733404340598, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340598 XXXX 1733404340598, Thread 7922: XXXX 1733404340598, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340600 XXXX 1733404340600, Thread 7922: XXXX 1733404340600, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340600 XXXX 1733404340600, Thread 7922: XXXX 1733404340600, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340602 XXXX 1733404340602, Thread 7922: XXXX 1733404340602, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340602 XXXX 1733404340602, Thread 7922: XXXX 1733404340602, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340604 XXXX 1733404340604, Thread 7922: XXXX 1733404340604, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340604 XXXX 1733404340604, Thread 7922: XXXX 1733404340604, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340606 XXXX 1733404340606, Thread 7922: XXXX 1733404340606, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340606 XXXX 1733404340606, Thread 7922: XXXX 1733404340606, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340608 XXXX 1733404340608, Thread 7922: XXXX 1733404340608, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340608 XXXX 1733404340608, Thread 7922: XXXX 1733404340608, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340610 XXXX 1733404340610, Thread 7922: XXXX 1733404340610, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340610 XXXX 1733404340610, Thread 7922: XXXX 1733404340610, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340612 XXXX 1733404340612, Thread 7922: XXXX 1733404340612, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340612 XXXX 1733404340612, Thread 7922: XXXX 1733404340612, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340614 XXXX 1733404340614, Thread 7922: XXXX 1733404340614, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340614 XXXX 1733404340614, Thread 7922: XXXX 1733404340614, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340616 XXXX 1733404340616, Thread 7922: XXXX 1733404340616, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340616 XXXX 1733404340616, Thread 7922: XXXX 1733404340616, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340618 XXXX 1733404340618, Thread 7922: XXXX 1733404340618, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340618 XXXX 1733404340618, Thread 7922: XXXX 1733404340618, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340620 XXXX 1733404340620, Thread 7922: XXXX 1733404340620, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340620 XXXX 1733404340620, Thread 7922: XXXX 1733404340620, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340622 XXXX 1733404340622, Thread 7922: XXXX 1733404340622, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340622 XXXX 1733404340622, Thread 7922: XXXX 1733404340622, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340624 XXXX 1733404340624, Thread 7922: XXXX 1733404340624, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340624 XXXX 1733404340624, Thread 7922: XXXX 1733404340624, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340627 XXXX 1733404340627, Thread 7922: XXXX 1733404340627, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340627 XXXX 1733404340627, Thread 7922: XXXX 1733404340627, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340630 XXXX 1733404340630, Thread 7922: XXXX 1733404340630, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340630 XXXX 1733404340630, Thread 7922: XXXX 1733404340630, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340632 XXXX 1733404340632, Thread 7922: XXXX 1733404340632, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340632 XXXX 1733404340632, Thread 7922: XXXX 1733404340632, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340634 XXXX 1733404340634, Thread 7922: XXXX 1733404340634, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340634 XXXX 1733404340634, Thread 7922: XXXX 1733404340634, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340636 XXXX 1733404340636, Thread 7922: XXXX 1733404340636, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340636 XXXX 1733404340636, Thread 7922: XXXX 1733404340636, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340638 XXXX 1733404340638, Thread 7922: XXXX 1733404340638, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340638 XXXX 1733404340638, Thread 7922: XXXX 1733404340638, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340640 XXXX 1733404340640, Thread 7922: XXXX 1733404340640, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340640 XXXX 1733404340640, Thread 7922: XXXX 1733404340640, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340641 XXXX 1733404340641, Thread 7922: XXXX 1733404340641, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340641 XXXX 1733404340641, Thread 7922: XXXX 1733404340641, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340645 XXXX 1733404340645, Thread 7922: XXXX 1733404340645, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340645 XXXX 1733404340645, Thread 7922: XXXX 1733404340645, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340647 XXXX 1733404340647, Thread 7922: XXXX 1733404340647, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340647 XXXX 1733404340647, Thread 7922: XXXX 1733404340647, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340648 XXXX 1733404340648, Thread 7922: XXXX 1733404340648, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340648 XXXX 1733404340648, Thread 7922: XXXX 1733404340648, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340649 XXXX 1733404340649, Thread 7922: XXXX 1733404340649, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340649 XXXX 1733404340649, Thread 7922: XXXX 1733404340649, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340651 XXXX 1733404340651, Thread 7922: XXXX 1733404340651, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340651 XXXX 1733404340651, Thread 7922: XXXX 1733404340651, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340653 XXXX 1733404340653, Thread 7922: XXXX 1733404340653, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340653 XXXX 1733404340653, Thread 7922: XXXX 1733404340653, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340655 XXXX 1733404340655, Thread 7922: XXXX 1733404340655, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340655 XXXX 1733404340655, Thread 7922: XXXX 1733404340655, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340657 XXXX 1733404340657, Thread 7922: XXXX 1733404340657, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340657 XXXX 1733404340657, Thread 7922: XXXX 1733404340657, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340659 XXXX 1733404340659, Thread 7922: XXXX 1733404340659, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340659 XXXX 1733404340659, Thread 7922: XXXX 1733404340659, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340661 XXXX 1733404340661, Thread 7922: XXXX 1733404340661, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340661 XXXX 1733404340661, Thread 7922: XXXX 1733404340661, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340663 XXXX 1733404340663, Thread 7922: XXXX 1733404340663, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340663 XXXX 1733404340663, Thread 7922: XXXX 1733404340663, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340665 XXXX 1733404340665, Thread 7922: XXXX 1733404340665, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340665 XXXX 1733404340665, Thread 7922: XXXX 1733404340665, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340668 XXXX 1733404340668, Thread 7922: XXXX 1733404340668, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340668 XXXX 1733404340668, Thread 7922: XXXX 1733404340668, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340670 XXXX 1733404340670, Thread 7922: XXXX 1733404340670, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340670 XXXX 1733404340670, Thread 7922: XXXX 1733404340670, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340672 XXXX 1733404340672, Thread 7922: XXXX 1733404340672, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340672 XXXX 1733404340672, Thread 7922: XXXX 1733404340672, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340674 XXXX 1733404340674, Thread 7922: XXXX 1733404340674, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340674 XXXX 1733404340674, Thread 7922: XXXX 1733404340674, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340676 XXXX 1733404340676, Thread 7922: XXXX 1733404340676, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340676 XXXX 1733404340676, Thread 7922: XXXX 1733404340676, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340678 XXXX 1733404340678, Thread 7922: XXXX 1733404340678, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340678 XXXX 1733404340678, Thread 7922: XXXX 1733404340678, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340680 XXXX 1733404340680, Thread 7922: XXXX 1733404340680, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340680 XXXX 1733404340680, Thread 7922: XXXX 1733404340680, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340682 XXXX 1733404340682, Thread 7922: XXXX 1733404340682, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340682 XXXX 1733404340682, Thread 7922: XXXX 1733404340682, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340684 XXXX 1733404340684, Thread 7922: XXXX 1733404340684, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340684 XXXX 1733404340684, Thread 7922: XXXX 1733404340684, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340686 XXXX 1733404340686, Thread 7922: XXXX 1733404340686, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340686 XXXX 1733404340686, Thread 7922: XXXX 1733404340686, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340688 XXXX 1733404340688, Thread 7922: XXXX 1733404340688, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340688 XXXX 1733404340688, Thread 7922: XXXX 1733404340688, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340690 XXXX 1733404340690, Thread 7922: XXXX 1733404340690, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340690 XXXX 1733404340690, Thread 7922: XXXX 1733404340690, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340692 XXXX 1733404340692, Thread 7922: XXXX 1733404340692, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340692 XXXX 1733404340692, Thread 7922: XXXX 1733404340692, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340694 XXXX 1733404340694, Thread 7922: XXXX 1733404340694, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340694 XXXX 1733404340694, Thread 7922: XXXX 1733404340694, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340696 XXXX 1733404340696, Thread 7922: XXXX 1733404340696, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340696 XXXX 1733404340696, Thread 7922: XXXX 1733404340696, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340698 XXXX 1733404340698, Thread 7922: XXXX 1733404340698, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340698 XXXX 1733404340698, Thread 7922: XXXX 1733404340698, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340700 XXXX 1733404340700, Thread 7922: XXXX 1733404340700, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340700 XXXX 1733404340700, Thread 7922: XXXX 1733404340700, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340702 XXXX 1733404340702, Thread 7922: XXXX 1733404340702, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340702 XXXX 1733404340702, Thread 7922: XXXX 1733404340702, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340704 XXXX 1733404340704, Thread 7922: XXXX 1733404340704, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340704 XXXX 1733404340704, Thread 7922: XXXX 1733404340704, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340706 XXXX 1733404340706, Thread 7922: XXXX 1733404340706, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340706 XXXX 1733404340706, Thread 7922: XXXX 1733404340706, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340708 XXXX 1733404340708, Thread 7922: XXXX 1733404340708, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340708 XXXX 1733404340708, Thread 7922: XXXX 1733404340708, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340710 XXXX 1733404340710, Thread 7922: XXXX 1733404340710, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340710 XXXX 1733404340710, Thread 7922: XXXX 1733404340710, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340712 XXXX 1733404340712, Thread 7922: XXXX 1733404340712, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340712 XXXX 1733404340712, Thread 7922: XXXX 1733404340712, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340714 XXXX 1733404340714, Thread 7922: XXXX 1733404340714, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340714 XXXX 1733404340714, Thread 7922: XXXX 1733404340714, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340716 XXXX 1733404340716, Thread 7922: XXXX 1733404340716, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340716 XXXX 1733404340716, Thread 7922: XXXX 1733404340716, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340718 XXXX 1733404340718, Thread 7922: XXXX 1733404340718, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340718 XXXX 1733404340718, Thread 7922: XXXX 1733404340718, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340720 XXXX 1733404340720, Thread 7922: XXXX 1733404340720, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340720 XXXX 1733404340720, Thread 7922: XXXX 1733404340720, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340722 XXXX 1733404340722, Thread 7922: XXXX 1733404340722, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340722 XXXX 1733404340722, Thread 7922: XXXX 1733404340722, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340724 XXXX 1733404340724, Thread 7922: XXXX 1733404340724, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340724 XXXX 1733404340724, Thread 7922: XXXX 1733404340724, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340726 XXXX 1733404340726, Thread 7922: XXXX 1733404340726, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340726 XXXX 1733404340726, Thread 7922: XXXX 1733404340726, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340728 XXXX 1733404340728, Thread 7922: XXXX 1733404340728, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340728 XXXX 1733404340728, Thread 7922: XXXX 1733404340728, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340730 XXXX 1733404340730, Thread 7922: XXXX 1733404340730, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340730 XXXX 1733404340730, Thread 7922: XXXX 1733404340730, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340732 XXXX 1733404340732, Thread 7922: XXXX 1733404340732, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340732 XXXX 1733404340732, Thread 7922: XXXX 1733404340732, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340734 XXXX 1733404340734, Thread 7922: XXXX 1733404340734, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340734 XXXX 1733404340734, Thread 7922: XXXX 1733404340734, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340736 XXXX 1733404340736, Thread 7922: XXXX 1733404340736, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340736 XXXX 1733404340736, Thread 7922: XXXX 1733404340736, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340738 XXXX 1733404340738, Thread 7922: XXXX 1733404340738, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340738 XXXX 1733404340738, Thread 7922: XXXX 1733404340738, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340740 XXXX 1733404340740, Thread 7922: XXXX 1733404340740, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340740 XXXX 1733404340740, Thread 7922: XXXX 1733404340740, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340742 XXXX 1733404340742, Thread 7922: XXXX 1733404340742, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340742 XXXX 1733404340742, Thread 7922: XXXX 1733404340742, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340744 XXXX 1733404340744, Thread 7922: XXXX 1733404340744, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340744 XXXX 1733404340744, Thread 7922: XXXX 1733404340744, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340746 XXXX 1733404340746, Thread 7922: XXXX 1733404340746, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340746 XXXX 1733404340746, Thread 7922: XXXX 1733404340746, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340748 XXXX 1733404340748, Thread 7922: XXXX 1733404340748, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340748 XXXX 1733404340748, Thread 7922: XXXX 1733404340748, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340750 XXXX 1733404340750, Thread 7922: XXXX 1733404340750, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340750 XXXX 1733404340750, Thread 7922: XXXX 1733404340750, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340752 XXXX 1733404340752, Thread 7922: XXXX 1733404340752, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340752 XXXX 1733404340752, Thread 7922: XXXX 1733404340752, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340754 XXXX 1733404340754, Thread 7922: XXXX 1733404340754, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340754 XXXX 1733404340754, Thread 7922: XXXX 1733404340754, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340756 XXXX 1733404340756, Thread 7922: XXXX 1733404340756, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340756 XXXX 1733404340756, Thread 7922: XXXX 1733404340756, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340758 XXXX 1733404340758, Thread 7922: XXXX 1733404340758, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340758 XXXX 1733404340758, Thread 7922: XXXX 1733404340758, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340760 XXXX 1733404340760, Thread 7922: XXXX 1733404340760, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340760 XXXX 1733404340760, Thread 7922: XXXX 1733404340760, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340762 XXXX 1733404340762, Thread 7922: XXXX 1733404340762, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340762 XXXX 1733404340762, Thread 7922: XXXX 1733404340762, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340764 XXXX 1733404340764, Thread 7922: XXXX 1733404340764, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340764 XXXX 1733404340764, Thread 7922: XXXX 1733404340764, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340766 XXXX 1733404340766, Thread 7922: XXXX 1733404340766, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340766 XXXX 1733404340766, Thread 7922: XXXX 1733404340766, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340768 XXXX 1733404340768, Thread 7922: XXXX 1733404340768, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340768 XXXX 1733404340768, Thread 7922: XXXX 1733404340768, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340770 XXXX 1733404340770, Thread 7922: XXXX 1733404340770, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340770 XXXX 1733404340770, Thread 7922: XXXX 1733404340770, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340772 XXXX 1733404340772, Thread 7922: XXXX 1733404340772, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340772 XXXX 1733404340772, Thread 7922: XXXX 1733404340772, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340774 XXXX 1733404340774, Thread 7922: XXXX 1733404340774, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340774 XXXX 1733404340774, Thread 7922: XXXX 1733404340774, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340776 XXXX 1733404340776, Thread 7922: XXXX 1733404340776, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340776 XXXX 1733404340776, Thread 7922: XXXX 1733404340776, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340778 XXXX 1733404340778, Thread 7922: XXXX 1733404340778, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340778 XXXX 1733404340778, Thread 7922: XXXX 1733404340778, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340780 XXXX 1733404340780, Thread 7922: XXXX 1733404340780, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340780 XXXX 1733404340780, Thread 7922: XXXX 1733404340780, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340782 XXXX 1733404340782, Thread 7922: XXXX 1733404340782, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340782 XXXX 1733404340782, Thread 7922: XXXX 1733404340782, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340784 XXXX 1733404340784, Thread 7922: XXXX 1733404340784, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340784 XXXX 1733404340784, Thread 7922: XXXX 1733404340784, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340786 XXXX 1733404340786, Thread 7922: XXXX 1733404340786, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340786 XXXX 1733404340786, Thread 7922: XXXX 1733404340786, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340788 XXXX 1733404340788, Thread 7922: XXXX 1733404340788, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340788 XXXX 1733404340788, Thread 7922: XXXX 1733404340788, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340790 XXXX 1733404340790, Thread 7922: XXXX 1733404340790, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340790 XXXX 1733404340790, Thread 7922: XXXX 1733404340790, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340792 XXXX 1733404340792, Thread 7922: XXXX 1733404340792, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340792 XXXX 1733404340792, Thread 7922: XXXX 1733404340792, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340794 XXXX 1733404340794, Thread 7922: XXXX 1733404340794, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340794 XXXX 1733404340794, Thread 7922: XXXX 1733404340794, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340796 XXXX 1733404340796, Thread 7922: XXXX 1733404340796, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340796 XXXX 1733404340796, Thread 7922: XXXX 1733404340796, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340798 XXXX 1733404340798, Thread 7922: XXXX 1733404340798, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340798 XXXX 1733404340798, Thread 7922: XXXX 1733404340798, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340800 XXXX 1733404340800, Thread 7922: XXXX 1733404340800, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340800 XXXX 1733404340800, Thread 7922: XXXX 1733404340800, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340802 XXXX 1733404340802, Thread 7922: XXXX 1733404340802, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340802 XXXX 1733404340802, Thread 7922: XXXX 1733404340802, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340804 XXXX 1733404340804, Thread 7922: XXXX 1733404340804, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340804 XXXX 1733404340804, Thread 7922: XXXX 1733404340804, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340806 XXXX 1733404340806, Thread 7922: XXXX 1733404340806, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340806 XXXX 1733404340806, Thread 7922: XXXX 1733404340806, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340808 XXXX 1733404340808, Thread 7922: XXXX 1733404340808, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340808 XXXX 1733404340808, Thread 7922: XXXX 1733404340808, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340810 XXXX 1733404340810, Thread 7922: XXXX 1733404340810, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340810 XXXX 1733404340810, Thread 7922: XXXX 1733404340810, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340812 XXXX 1733404340812, Thread 7922: XXXX 1733404340812, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340812 XXXX 1733404340812, Thread 7922: XXXX 1733404340812, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340814 XXXX 1733404340814, Thread 7922: XXXX 1733404340814, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340814 XXXX 1733404340814, Thread 7922: XXXX 1733404340814, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340816 XXXX 1733404340816, Thread 7922: XXXX 1733404340816, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340816 XXXX 1733404340816, Thread 7922: XXXX 1733404340816, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340818 XXXX 1733404340818, Thread 7922: XXXX 1733404340818, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340818 XXXX 1733404340818, Thread 7922: XXXX 1733404340818, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340820 XXXX 1733404340820, Thread 7922: XXXX 1733404340820, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340820 XXXX 1733404340820, Thread 7922: XXXX 1733404340820, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340822 XXXX 1733404340822, Thread 7922: XXXX 1733404340822, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340822 XXXX 1733404340822, Thread 7922: XXXX 1733404340822, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340824 XXXX 1733404340824, Thread 7922: XXXX 1733404340824, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340824 XXXX 1733404340824, Thread 7922: XXXX 1733404340824, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340826 XXXX 1733404340826, Thread 7922: XXXX 1733404340826, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340826 XXXX 1733404340826, Thread 7922: XXXX 1733404340826, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340828 XXXX 1733404340828, Thread 7922: XXXX 1733404340828, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340828 XXXX 1733404340828, Thread 7922: XXXX 1733404340828, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340830 XXXX 1733404340830, Thread 7922: XXXX 1733404340830, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340830 XXXX 1733404340830, Thread 7922: XXXX 1733404340830, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340832 XXXX 1733404340832, Thread 7922: XXXX 1733404340832, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340832 XXXX 1733404340832, Thread 7922: XXXX 1733404340832, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340834 XXXX 1733404340834, Thread 7922: XXXX 1733404340834, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340834 XXXX 1733404340834, Thread 7922: XXXX 1733404340834, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340836 XXXX 1733404340836, Thread 7922: XXXX 1733404340836, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340836 XXXX 1733404340836, Thread 7922: XXXX 1733404340836, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340838 XXXX 1733404340838, Thread 7922: XXXX 1733404340838, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340838 XXXX 1733404340838, Thread 7922: XXXX 1733404340838, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340840 XXXX 1733404340840, Thread 7922: XXXX 1733404340840, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340840 XXXX 1733404340840, Thread 7922: XXXX 1733404340840, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340842 XXXX 1733404340842, Thread 7922: XXXX 1733404340842, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340842 XXXX 1733404340842, Thread 7922: XXXX 1733404340842, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340844 XXXX 1733404340844, Thread 7922: XXXX 1733404340844, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340844 XXXX 1733404340844, Thread 7922: XXXX 1733404340844, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340846 XXXX 1733404340846, Thread 7922: XXXX 1733404340846, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340846 XXXX 1733404340846, Thread 7922: XXXX 1733404340846, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340848 XXXX 1733404340848, Thread 7922: XXXX 1733404340848, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340848 XXXX 1733404340848, Thread 7922: XXXX 1733404340848, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340850 XXXX 1733404340850, Thread 7922: XXXX 1733404340850, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340850 XXXX 1733404340850, Thread 7922: XXXX 1733404340850, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340852 XXXX 1733404340852, Thread 7922: XXXX 1733404340852, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340852 XXXX 1733404340852, Thread 7922: XXXX 1733404340852, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340854 XXXX 1733404340854, Thread 7922: XXXX 1733404340854, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340854 XXXX 1733404340854, Thread 7922: XXXX 1733404340854, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340856 XXXX 1733404340856, Thread 7922: XXXX 1733404340856, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340856 XXXX 1733404340856, Thread 7922: XXXX 1733404340856, Entering Thread 7922: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+7922 1733404340858 XXXX 1733404340858, Thread 7922: XXXX 1733404340858, Exiting Thread 7922: Commands::runScriptBasic  
+7922 1733404340858 XXXX 1733404340858, Thread 7922: XXXX 1733404340858, Entering Thread 7922: Commands::runScriptBasic, script name = InitSWD, timeOut = -1 ms  
+7922 1733404341878 XXXX 1733404341878, Thread 7922: Type = runScript, Script name = InitSWD, Status = 0x100
+ 

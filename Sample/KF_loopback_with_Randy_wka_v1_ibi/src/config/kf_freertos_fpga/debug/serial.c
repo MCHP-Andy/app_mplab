@@ -1,0 +1,43 @@
+/****************************************************************************
+* © 2020 Microchip Technology Inc. and its subsidiaries.
+* You may use this software and any derivatives exclusively with
+* Microchip products.
+* THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS".
+* NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE,
+* INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY,
+* AND FITNESS FOR A PARTICULAR PURPOSE, OR ITS INTERACTION WITH MICROCHIP
+* PRODUCTS, COMBINATION WITH ANY OTHER PRODUCTS, OR USE IN ANY APPLICATION.
+* IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE,
+* INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND
+* WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS
+* BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE.
+* TO THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL
+* CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF
+* FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+* MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE
+* OF THESE TERMS.
+*/
+/* Carlsbad ROM UART porting */
+#include <stdio.h>
+#include <string.h>
+#include "definitions.h"
+
+#define DEBUG_UART_NUMBER UART1_ID
+
+void SER_init(void)
+{
+        uart_pins_init(DEBUG_UART_NUMBER);
+        uart_hw_init(DEBUG_UART_NUMBER, UART_CFG_SEL_POL_NON_INV, UART_CFG_SEL_PWR_VTR, UART_CLK_INT_1P84MHz, BAUD_38400, \
+                  UART_FIFO_DIS, UART_FIFO_INT_LVL_1 );
+        uart_protocol_init(DEBUG_UART_NUMBER, UART_WRD_LEN_8_BITS, UART_STOP_BIT_1, UART_PARITY_BIT_NONE, UART_RX_DATA_AVAILABLE );
+}
+
+/*----------------------------------------------------------------------------
+  Write character to Serial Port
+ *----------------------------------------------------------------------------*/
+int sendchar(char c) {
+
+    while (false == p_uart_line_status_reg_get(DEBUG_UART_NUMBER, TRANSMIT_HOLDING_REG_EMPTY));
+    uart_transmit(DEBUG_UART_NUMBER, (uint8_t)c);
+    return (1u);
+}

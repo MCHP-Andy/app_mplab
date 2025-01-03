@@ -1,0 +1,92 @@
+/*****************************************************************************
+ * Copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.
+ * You may use this software and any derivatives exclusively with
+ * Microchip products.
+ * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS".
+ * NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE,
+ * INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY,
+ * AND FITNESS FOR A PARTICULAR PURPOSE, OR ITS INTERACTION WITH MICROCHIP
+ * PRODUCTS, COMBINATION WITH ANY OTHER PRODUCTS, OR USE IN ANY APPLICATION.
+ * IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE,
+ * INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND
+ * WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS
+ * BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE.
+ * TO THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL
+ * CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF
+ * FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+ * MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE
+ * OF THESE TERMS.
+ *****************************************************************************/
+
+#ifndef I3C_CONFIG_H
+#define I3C_CONFIG_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+    struct device* DRV_I3C0_Initialize(void);
+    int DRV_I3C_Bus_Init(struct device *dev);
+    struct device* DRV_I3C1_Initialize(void);
+    struct device* DRV_I3C1_as_host_Initialize(void);
+
+    enum i3c_operating_mode {
+        I3C_MODE_SECONDARY_CONTROLLER = 5 //TBD
+    };
+
+#define ENABLE   1
+#define DISABLE   0
+
+    /* Update with actual I3C0 hardware instance base address */
+#define I3C0_BASE_ADDRESS       0x40010800U // Primary controller
+#define I3C1_BASE_ADDRESS       0x40010000U // Secondary controller
+
+#define DMA_MAIN_BLK_BASE_ADDRESS           0x40002400U
+#define DMA_INSTANCES_BASE_ADDRESS          0x40002440U
+
+    /* Update with actual I3C0 hardware instance base address */
+#define I3C0_DMA_TX_BASE_ADDRESS       (DMA_INSTANCES_BASE_ADDRESS + 0x40 * DEVICE_ID_I3C_HOST_TX_0) // I3C Host TX DMA
+#define I3C0_DMA_RX_BASE_ADDRESS       (DMA_INSTANCES_BASE_ADDRESS + 0x40 * DEVICE_ID_I3C_HOST_RX_0) // I3C Host RX DMA
+
+#define I3C1_DMA_TX_BASE_ADDRESS       (DMA_INSTANCES_BASE_ADDRESS + 0x40 * DEVICE_ID_I3C_SEC_HOST_TX_0) // I3C Sec Host TX DMA
+#define I3C1_DMA_RX_BASE_ADDRESS       (DMA_INSTANCES_BASE_ADDRESS + 0x40 * DEVICE_ID_I3C_SEC_HOST_RX_0) // I3C Sec Host RX DMA
+
+#define I3C0_CORE_CLOCK_HZ      125000000U/*192000000U*/
+#define I3C1_CORE_CLOCK_HZ      125000000U/*192000000U*/
+
+#define I3C0_DYNAMIC_ADDRESS    0x08U
+#define I3C1_DYNAMIC_ADDRESS    0x08U
+
+    //I3C0
+#define ENABLE_I3C0_BLOCK       ENABLE
+
+#define I3C0_OPERATING_MODE     I3C_CONFIG_CONTROLLER
+
+#define I3C0_BUS_CONFIG         I3C_BUS_MODE_PURE
+
+#define I3C0_HOT_JOIN   ENABLE
+
+#define NUM_TARGETS_ON_I3C0_BUS 1U
+
+    //I3C1
+#define ENABLE_I3C1_BLOCK       ENABLE
+
+
+#define I3C1_OPERATING_MODE     I3C_CONFIG_TARGET
+#define TARGET_PID_RANDOM ((0x0ULL<<33) | (1ULL<<32) | (0x0))
+#define TARGET_PID_VENDOR_FIX ((0x0ULL<<33) |  (0x0<<16) | (0x0<<12) | 0x0)
+
+#define I3C1_BUS_CONFIG         I3C_BUS_MODE_PURE
+
+#define I3C1_HOT_JOIN           ENABLE
+
+#define NUM_TARGETS_ON_I3C1_BUS 4U
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* I3C_CONFIG_H */
+
+/**   @}
+ */
