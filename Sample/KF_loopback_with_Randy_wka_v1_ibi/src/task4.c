@@ -135,21 +135,9 @@ void TASK4_Tasks ( void )
     LOGI(TAG, "Wait for peripheral initial");
     vTaskDelay(1000 / portTICK_PERIOD_MS );
 
-    LOGI(TAG, "test_xfers_all");
-    test_xfers_all(i3c0Dev);
-    LOGI(TAG, "test_xfers_all end\n\n\n");
-
     LOGI(TAG, "test_ibis_all");
     test_ibis_all(i3c0Dev);
     LOGI(TAG, "test_ibis_all end\n\n\n");
-
-    LOGI(TAG, "test_ibis_all");
-    test_ibis_all(i3c0Dev);
-    LOGI(TAG, "test_ibis_all end\n\n\n");
-
-    LOGI(TAG, "tgt_test_xfers_all");
-    tgt_test_xfers_all(i3c1Dev);
-    LOGI(TAG, "tgt_test_xfers_all end\n\n\n");
 
     LOGI(TAG, "tgt_test_ibis_all");
     tgt_test_ibis_all(i3c1Dev);
