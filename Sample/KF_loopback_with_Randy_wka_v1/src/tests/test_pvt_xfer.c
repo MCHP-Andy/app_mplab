@@ -92,13 +92,19 @@ exit_test_private_write_read:
 }
 
 
-//#define TEST_THRESHOLD_INTR
+// #define TEST_THRESHOLD_INTR
 
 #define TEST_LEN    232
 
 #ifdef TEST_THRESHOLD_INTR
 uint8_t txd_cust[TEST_LEN];
 uint8_t rxd_cust[TEST_LEN];
+#endif
+
+#if I3C_ENABLE_DMA
+uint8_t tx_max[4096] = {0};
+#else
+uint8_t tx_max[128] = {0};
 #endif
 
 int test_xfers_all(struct device *dev)
@@ -136,18 +142,31 @@ int test_xfers_all(struct device *dev)
         }
 
 #ifdef TEST_THRESHOLD_INTR  
+        ret = test_private_write(target, &txd_cust[0], TEST_LEN, pec_en, hdr_en);
         ret = test_private_read(target, &rxd_cust[0], TEST_LEN, pec_en, hdr_en);
-        //ret = test_private_write(target, &rxd_cust[0], TEST_LEN, pec_en, hdr_en);        
-        //print_buf(&rxd_cust[0], TEST_LEN);        
-        while(1);
+        print_buf(&rxd_cust[0], TEST_LEN);        
+        // while(1);
 #else
+        LOG_DBG("\r\n");
         LOG_DBG("Master write to target:");
-        ret = test_private_write(target, &txd[i%2][0], 10, pec_en, hdr_en);
+        // ret = test_private_write(target, &txd[i%2][0], 10, pec_en, hdr_en);
+
+        for (size_t i = 0; i < sizeof(tx_max); i++)
+            tx_max[i] = i/16;
+        ret = test_private_write(target, tx_max, sizeof(tx_max), pec_en, hdr_en);
+
+        if (ret < 0) {
+            LOG_ERR("test_private_write error: %d", ret);
+        }
+        
+        
+        LOG_DBG("\r\n");
 #endif
     } 
     
 #ifndef TEST_THRESHOLD_INTR  
     
+    LOG_DBG("[TEST_THRESHOLD_INTR] num_i3c_tgts:%d", num_i3c_tgts);
     for(i=0; i<num_i3c_tgts; i++)
     {
         target = &dev_cfg->common.dev_list.i3c[i];
@@ -158,9 +177,10 @@ int test_xfers_all(struct device *dev)
             continue;
         }
 
-        ret = test_private_read(target, &rxd[i%2][0], 10, pec_en, hdr_en);
         LOG_DBG("Master read from target:");
+        ret = test_private_read(target, &rxd[i%2][0], 10, pec_en, hdr_en);
         print_buf(&rxd[i%2][0], 10);
+        LOG_DBG("\r\n");
     }
 
     for(i=0; i<num_i3c_tgts; i++) {
@@ -179,6 +199,7 @@ int test_xfers_all(struct device *dev)
         LOG_DBG("Master write/read to/from target:");
         ret = test_private_write_read(target, &txd[i%2][0], 10, &rxd[i%2][0], 10, pec_en, hdr_en);
         print_buf(&rxd[i%2][0], 10);
+        LOG_DBG("\r\n");
     }
 #endif    
 
