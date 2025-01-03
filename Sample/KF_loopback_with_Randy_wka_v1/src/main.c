@@ -52,6 +52,14 @@
 
 #include "debug/trace.h"
 
+#include "components/log/log.h"
+
+#define TAG "MAIN"
+
+static uint32_t systick_ms(void) {
+   return xTaskGetTickCount();
+}
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Main Entry Point
@@ -61,6 +69,9 @@ int main ( void )
 {
     /* Initialize all modules */
     SYS_Initialize ( NULL );
+
+    log_route(systick_ms);
+    LOGI(TAG, "RTOS start");
     
     while ( true )
     {

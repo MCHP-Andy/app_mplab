@@ -53,6 +53,9 @@
 #include "configuration.h"
 #include "definitions.h"
 
+#include "components/log/log.h"
+
+#define TAG "TASKS"
 
 // *****************************************************************************
 // *****************************************************************************
@@ -90,6 +93,17 @@ void _TASK3_Tasks(  void *pvParameters  )
     }
 }
 
+/* Handle for the TASK4_Tasks. */
+TaskHandle_t xTASK4_Tasks;
+
+void _TASK4_Tasks(  void *pvParameters  )
+{   
+    while(1)
+    {
+        TASK4_Tasks();
+    }
+}
+
 
 
 
@@ -108,6 +122,7 @@ void _TASK3_Tasks(  void *pvParameters  )
 */
 void SYS_Tasks ( void )
 {
+    BaseType_t ret = 0;
     /* Maintain system services */
     
 
@@ -119,28 +134,44 @@ void SYS_Tasks ( void )
 
     /* Maintain the application's state machine. */
         /* Create OS Thread for TASK1_Tasks. */
-    xTaskCreate((TaskFunction_t) _TASK1_Tasks,
+    ret = xTaskCreate((TaskFunction_t) _TASK1_Tasks,
                 "TASK1_Tasks",
                 512,/*stack = 2048 bytes*/
                 NULL,
-                1,
+                3,
                 &xTASK1_Tasks);
+    if (ret != pdPASS)
+      LOGE(TAG, "Task 1 Create fail!");
+    
     /* Create OS Thread for TASK2_Tasks. */
-    xTaskCreate((TaskFunction_t) _TASK2_Tasks,
+    ret = xTaskCreate((TaskFunction_t) _TASK2_Tasks,
                 "TASK2_Tasks",
                 512, /*stack = 2048 bytes*/
                 NULL,
-                2,
+                4,
                 &xTASK2_Tasks);
+    if (ret != pdPASS)
+      LOGE(TAG, "Task 2 Create fail!");
+
     /* Create OS Thread for TASK3_Tasks. */
-    xTaskCreate((TaskFunction_t) _TASK3_Tasks,
+    ret = xTaskCreate((TaskFunction_t) _TASK3_Tasks,
                 "TASK3_Tasks",
                 512, /*stack = 2048 bytes*/
                 NULL,
-                3,
+                2,
                 &xTASK3_Tasks);
-
-
+    if (ret != pdPASS)
+      LOGE(TAG, "Task 3 Create fail!");
+    
+    /* Create OS Thread for TASK4_Tasks. */
+    ret = xTaskCreate((TaskFunction_t) _TASK4_Tasks,
+                "TASK4_Tasks",
+                512, /*stack = 2048 bytes*/
+                NULL,
+                1,
+                &xTASK4_Tasks);
+    if (ret != pdPASS)
+      LOGE(TAG, "Task 4 Create fail!");
 
 
     /* Start RTOS Scheduler. */
@@ -149,6 +180,7 @@ void SYS_Tasks ( void )
      * Create all Threads for APP Tasks before starting FreeRTOS Scheduler *
      ***********************************************************************/
     vTaskStartScheduler(); /* This function never returns. */
+    LOGE(TAG, "Tasks should not be here!");
 
 }
 

@@ -70,9 +70,10 @@ static int tgt0_write_received_cb(struct i3c_target_config *config, uint8_t *val
 
         memset(&rx_buff[0], 0x00, sizeof(rx_buff));
         // memcpy(&rx_buff[0], val, len);
-        for(int i=0; i<len; i++) {
-            LOG_DBG("Data => 0x%02x", val[i]);
-        }
+        // for(int i=0; i<len; i++) {
+        //     LOG_DBG("Data => 0x%02x", val[i]);
+        // }
+        print_buf(val, len);
     }
     
     // crc8 = crc8_init();
