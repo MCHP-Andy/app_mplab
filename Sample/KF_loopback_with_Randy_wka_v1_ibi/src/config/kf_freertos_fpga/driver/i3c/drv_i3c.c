@@ -168,6 +168,9 @@ int DRV_I3C_Init(const struct device *dev)
     struct xec_i3c_data *data = dev->data;
     struct i3c_xec_regs *regs = config->regs;
     struct i3c_config_controller *ctrl_config = &data->common.ctrl_config;
+#if (I3C_ENABLE_DMA)
+    struct dma_main_regs *dma_main_ptr = (struct dma_main_regs *)DMA_MAIN_BLK_BASE_ADDRESS;
+#endif
     int ret = 0, i3c_bus_mode = I3C_BUS_MODE_PURE;
     uint32_t core_clock = config->clock;
     int i;
@@ -179,6 +182,10 @@ int DRV_I3C_Init(const struct device *dev)
     if (false == I3C_Is_Current_Role_Primary(regs)) {
         ctrl_config->is_secondary = true;
     }
+
+#if (I3C_ENABLE_DMA)
+    dma_main_enable(dma_main_ptr);
+#endif
 
     if ((ctrl_config->is_secondary) && (ctrl_config->secondary_mode != I3C_SEC_MODE_HOST)) {
         I3C_Target_Init(regs, core_clock, &data->tgt_max_read_len, &data->tgt_max_write_len);
@@ -1009,6 +1016,7 @@ static int _drv_i3c_xfers(const struct device *dev, struct i3c_msg *msgs,
 
         if (pending_xfer_ctxt.node[i].read) {
             
+            _i3c_rx_fifo_rst(regs);
             dataAHBAddress = (uint32_t)&regs->rx_tx_port;
             device = dma_get_device_id(I3C_HOST_RX, 0);
             dma_setup_rx(dma_regs_rx, device, dataAHBAddress, (uint32_t)do_xfer_instance.cmds[i].data_buf, do_xfer_instance.cmds[i].data_len, true, true); 
@@ -1103,7 +1111,7 @@ static int _drv_i3c_xfers_iter(const struct device *dev, struct i3c_msg *msgs,
     ret = _drv_i3c_xfers(dev, msgs, num_msgs, tgt_addr, response);
     OSAL_SEM_Post(&data->xfer_lock);
 
-    if ((!ret) && response) {
+    if ((ret) && response) {
         /* Error in Response */
         LOG_ERR("!!Error - 0x%08x - %d!!", response, ret);
         return ret;
@@ -1390,7 +1398,7 @@ int DRV_I3C_target_ibi_raise(const struct device *dev, struct i3c_ibi *request)
         pending_xfer_ctxt.xfer_type = XFER_TYPE_TGT_RAISE_IBI;
         pending_xfer_ctxt.xfer_sem = &xec_data->xfer_sem;
         
-        LOG_DBG("[%s] - Raise IBI SIR", __FUNCTION__);
+//        LOG_DBG("[%s] - Raise IBI SIR", __FUNCTION__);
         I3C_TGT_IBI_SIR_Raise(regs, &ibi_sir_request);
 
         OSAL_SEM_Post(&xec_data->xfer_lock);
@@ -1647,11 +1655,11 @@ static bool _drv_i3c_ibi_isr(struct i3c_xec_regs *regs, struct xec_i3c_data *dat
         ibi_datalen = IBI_QUEUE_STATUS_DATA_LEN(ibi_sts);
         ibi_addr = IBI_QUEUE_IBI_ADDR(ibi_sts);
 
-        LOG_DBG("[%s] - ibi_sts = 0x%08x, ibi_addr = 0x%02x ibi_datalen = %d",
-                __FUNCTION__,
-                ibi_sts,
-                ibi_addr,
-                ibi_datalen);
+//        LOG_DBG("[%s] - ibi_sts = 0x%08x, ibi_addr = 0x%02x ibi_datalen = %d",
+//                __FUNCTION__,
+//                ibi_sts,
+//                ibi_addr,
+//                ibi_datalen);
 
         ibi_node_ptr = _drv_i3c_free_ibi_node_get_isr(data);
 
@@ -1678,7 +1686,7 @@ static bool _drv_i3c_ibi_isr(struct i3c_xec_regs *regs, struct xec_i3c_data *dat
 
             if (IBI_TYPE_SIRQ(ibi_sts))
             {
-                LOG_DBG("SIRQ IBI received");
+//                LOG_DBG("SIRQ IBI received");
                 ibi_node_ptr->ibi_type = I3C_IBI_TARGET_INTR;
             }
 
@@ -1696,7 +1704,7 @@ static bool _drv_i3c_ibi_isr(struct i3c_xec_regs *regs, struct xec_i3c_data *dat
 
             ibi_node_ptr->state = IBI_NODE_ISR_UPDATED;
             ibi_node_ptr->addr = ibi_addr;
-            LOG_DBG("Node updated");
+//            LOG_DBG("Node updated");
         }
         else
         {
@@ -1764,11 +1772,11 @@ int DRV_I3C_target_tx_write(const struct device *dev, uint8_t *buf, uint16_t len
     }
 
     xec_data->tgt_tx_queued = true;
-
-    if (len > xec_data->tgt_max_write_len) {
-        LOG_DBG("[%s] - Target write data len %d greater than SLV MAX WR LEN %d", __FUNCTION__, len, xec_data->tgt_max_write_len);
-        len = xec_data->tgt_max_write_len;
-    }
+    // looks cant increase xec_data->tgt_max_write_len > 255 jira there 
+    // if (len > xec_data->tgt_max_write_len) {
+    //     LOG_DBG("[%s] - Target write data len %d greater than SLV MAX WR LEN %d", __FUNCTION__, len, xec_data->tgt_max_write_len);
+    //     len = xec_data->tgt_max_write_len;
+    // }
     
 #if (I3C_ENABLE_DMA)
 
@@ -1950,7 +1958,8 @@ static void _drv_i3c_isr_xfers(struct i3c_xec_regs *regs, uint16_t num_responses
                     } else {
                         _i3c_fifo_read(regs, pending_xfer_ctxt.node[i].data_buf, data_len);
                     }
-#else
+#elif (!I3C_ENABLE_DMA)
+//#else
                     _i3c_fifo_read(regs, pending_xfer_ctxt.node[i].data_buf, data_len);
 #endif
 
@@ -2061,10 +2070,10 @@ static bool _drv_i3c_isr_target_xfers(const struct device *dev, uint16_t num_res
                 if (tgt_rx_node) {
                     tgt_rx_node->error_status = resp_sts;
                     tgt_rx_node->data_len = data_len;
-
-                    if (data_len > data->tgt_max_read_len) {
-                        LOG_DBG("[%s] - Received data len %d greater than SLV MAX RD LEN %d", __FUNCTION__, data_len, data->tgt_max_read_len);
-                    }
+                    // looks cant increase data->tgt_max_read_len > 255 jira there
+                    // if (data_len > data->tgt_max_read_len) {
+                    //     LOG_DBG("[%s] - Received data len %d greater than SLV MAX RD LEN %d", __FUNCTION__, data_len, data->tgt_max_read_len);
+                    // }
 #if (!I3C_ENABLE_DMA)
                     if ((!resp_sts) && data_len) { /* Read response bytes from Fifo */
                         LOG_DBG("[%s] - Reading [%d] bytes into [0x%08x]", __FUNCTION__, data_len, tgt_rx_node->data_buf);
@@ -2266,14 +2275,14 @@ static bool _drv_i3c_isr_target(const struct device *dev, uint32_t intr_sts, uin
 
     /* Get the number of responses in Response Queue */
     num_responses = _i3c_resp_buf_level_get(regs);
-    LOG_DBG("[%s] - num_responses = %d", __FUNCTION__, num_responses);
+//    LOG_DBG("[%s] - num_responses = %d", __FUNCTION__, num_responses);
 
     if (num_responses) {
         notify_app = _drv_i3c_isr_target_xfers(dev, num_responses, tgt_event);
     }
 
     if(intr_sts & sbit_IBI_UPDATED_STS) {
-        LOG_DBG("[%s] IBI updated status", __FUNCTION__);
+//        LOG_DBG("[%s] IBI updated status", __FUNCTION__);
 
         /* Ensure there is corresponding pending context */
         if ((XFER_TYPE_TGT_RAISE_IBI == pending_xfer_ctxt.xfer_type)
@@ -2374,7 +2383,7 @@ static bool _drv_i3c_isr_controller(const struct device *dev, uint32_t intr_sts,
         if(false != _drv_i3c_ibi_isr(regs, data)) {
             LOG_ERR("[%s] - Error handling IBI", __FUNCTION__);
         } else {
-            LOG_DBG("[%s] - Schedule IBI Task", __FUNCTION__);
+//            LOG_DBG("[%s] - Schedule IBI Task", __FUNCTION__);
             notify_app = true;
             *tgt_event = DRV_EVENT_BIT_HANDLE_IBI;
         }
