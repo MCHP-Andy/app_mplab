@@ -125,8 +125,11 @@ void TASK4_Initialize ( void )
     void TASK4_Tasks ( void )
 
   Remarks:
-    See prototype in task3.h.
+    See prototype in task4.h.
  */
+
+uint16_t ibi_cnt = 0;
+
 
 void TASK4_Tasks ( void )
 {
@@ -141,7 +144,11 @@ void TASK4_Tasks ( void )
 
     LOGI(TAG, "tgt_test_ibis_all");
     tgt_test_ibis_all(i3c1Dev);
-    LOGI(TAG, "tgt_test_ibis_all end\n\n\n");
+    do {
+      vTaskDelay(1 / portTICK_PERIOD_MS );
+    } while (ibi_cnt < 1000);    
+    LOGI(TAG, "test_ibis_all cnt: %d", ibi_cnt);
+    LOGI(TAG, "test_ibis_all end\n\n\n");
 
     while(1)
     {

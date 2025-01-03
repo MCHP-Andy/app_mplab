@@ -36,12 +36,15 @@ static int target_5a_ibi_cb(struct i3c_device_desc *target, struct i3c_ibi_paylo
 
 //    LOG_DBG("Enter [%s] - RxD %d bytes of payload", __FUNCTION__, payload->payload_len);
     if(payload->payload_len) {
-        LOG_DBG("M:RxD");
+        // LOG_DBG("M:RxD");
 
-        for(uint8_t indx=0;indx<payload->payload_len;indx++)
-            tracex("0x%x ", payload->payload[indx]);
-        tracex("\r\n");
+        // for(uint8_t indx=0;indx<payload->payload_len;indx++)
+        //     tracex("0x%x ", payload->payload[indx]);
+        // tracex("\r\n");
             // print_buf(&payload->payload[0], payload->payload_len);
+        
+        extern uint16_t ibi_cnt;
+        ibi_cnt++;
     }
 
 exit_target_5a_ibi_cb:

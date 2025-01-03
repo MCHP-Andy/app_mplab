@@ -404,7 +404,7 @@ void TASK1_Tasks(void)
                     event_bits = get_event(&task1Context.events, DRV_EVENT_BIT_HANDLE_IBI | DRV_EVENT_BIT_HANDLE_TGT_RX | DRV_EVENT_BIT_HANDLE_TGT_TX_DONE, true);
                     if(event_bits & DRV_EVENT_BIT_HANDLE_IBI)
                     {
-                        LOGI(TAG, "HANDLE IBI!!");
+                        LOGV(TAG, "HANDLE IBI!!");
                         DRV_IBI_Task(i3c0Dev);
                     }
 					

@@ -25,7 +25,7 @@
 #include "debug/trace.h"
 #include "timers.h"
 
-#define MAX_NUM_IBI_REQ 100
+#define MAX_NUM_IBI_REQ 1000
 
 extern int DRV_I3C_target_ibi_raise(const struct device *dev, struct i3c_ibi *request);
 uint8_t sir_ibi_payload[4] = {0x2E, 0x01, 0x02, 0x03}; 
@@ -93,16 +93,19 @@ void tgt_test_sir_ibi_cb(TimerHandle_t xTimer)
 #endif
 
     count++;
+
+    sir_ibi_payload[2] = count >> 8;
+    sir_ibi_payload[1] = count % 0xFF;
+    if (0 != DRV_I3C_target_ibi_raise(tgt_dev, &sir_ibi_mdb_3byte_payload))
+    {
+        LOG_DBG("SIR IBI with MDB + 3 bytes of payload failed!!");
+    }
+
     if(count==MAX_NUM_IBI_REQ)
 	{
         xTimerStop(tgt_test_sir_ibi_tmr, 0U);
 		count = 0;
 	}
-
-    if (0 != DRV_I3C_target_ibi_raise(tgt_dev, &sir_ibi_mdb_3byte_payload))
-    {
-        LOG_DBG("SIR IBI with MDB + 3 bytes of payload failed!!");
-    }
 }
 
 int tgt_test_sir_ibi_init(struct device *dev)
@@ -118,7 +121,7 @@ int tgt_test_sir_ibi_init(struct device *dev)
     }
 
     LOG_DBG("T: send %d IBI", MAX_NUM_IBI_REQ);
-    tgt_test_sir_ibi_tmr = xTimerCreate("TEST_SIR_TMR", pdMS_TO_TICKS(10), pdTRUE, (void*)0, tgt_test_sir_ibi_cb);
+    tgt_test_sir_ibi_tmr = xTimerCreate("TEST_SIR_TMR", pdMS_TO_TICKS(5), pdTRUE, (void*)0, tgt_test_sir_ibi_cb);
     if(tgt_test_sir_ibi_tmr!=NULL)
         xTimerStart(tgt_test_sir_ibi_tmr, 0);
 
