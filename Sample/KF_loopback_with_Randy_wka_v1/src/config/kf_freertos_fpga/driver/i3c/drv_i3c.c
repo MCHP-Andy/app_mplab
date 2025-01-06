@@ -1772,7 +1772,7 @@ int DRV_I3C_target_tx_write(const struct device *dev, uint8_t *buf, uint16_t len
     }
 
     xec_data->tgt_tx_queued = true;
-    // looks cant increase xec_data->tgt_max_write_len > 255 jira there 
+    // looks cant increase xec_data->tgt_max_write_len > re-visit it 
     // if (len > xec_data->tgt_max_write_len) {
     //     LOG_DBG("[%s] - Target write data len %d greater than SLV MAX WR LEN %d", __FUNCTION__, len, xec_data->tgt_max_write_len);
     //     len = xec_data->tgt_max_write_len;
@@ -2070,7 +2070,7 @@ static bool _drv_i3c_isr_target_xfers(const struct device *dev, uint16_t num_res
                 if (tgt_rx_node) {
                     tgt_rx_node->error_status = resp_sts;
                     tgt_rx_node->data_len = data_len;
-                    // looks cant increase data->tgt_max_read_len > 255 jira there
+                    // looks cant increase data->tgt_max_read_len > re-visit it
                     // if (data_len > data->tgt_max_read_len) {
                     //     LOG_DBG("[%s] - Received data len %d greater than SLV MAX RD LEN %d", __FUNCTION__, data_len, data->tgt_max_read_len);
                     // }

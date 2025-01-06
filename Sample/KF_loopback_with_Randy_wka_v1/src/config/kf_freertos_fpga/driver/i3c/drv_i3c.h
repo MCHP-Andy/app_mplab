@@ -39,6 +39,7 @@
 #define MAX_IBI_LIST_COUNT      10U
 
 #define TGT_RX_DATA_BUF_SIZE    128
+// #define MAX_TGT_RX_LIST_COUNT   10U
 #define MAX_TGT_RX_LIST_COUNT   1U
 
 #define MAX_TGT_TX_DATALEN      128
