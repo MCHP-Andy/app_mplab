@@ -398,12 +398,11 @@ void TASK1_Tasks(void)
                 task1Context.state = TASK1_STATE_SERVICE_TASKS;
             break;
             case TASK1_STATE_SERVICE_TASKS:
-                //while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c1Dev->data))->events_sem, DRV_IBI_WAIT_MS))
-                while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c0Dev->data))->events_sem, DRV_IBI_WAIT_MS))
+                //while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c0Dev->data))->events_sem, DRV_IBI_WAIT_MS))
+                while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c0Dev->data))->events_sem, OSAL_WAIT_FOREVER))
                 {
                     event_bits = get_event(&task1Context.events, DRV_EVENT_BIT_HANDLE_IBI | DRV_EVENT_BIT_HANDLE_TGT_RX | DRV_EVENT_BIT_HANDLE_TGT_TX_DONE, true);
-                    if(event_bits & DRV_EVENT_BIT_HANDLE_IBI)
-                    {
+                    if(event_bits & DRV_EVENT_BIT_HANDLE_IBI)                    {
                         LOGV(TAG, "HANDLE IBI!!");
                         DRV_IBI_Task(i3c0Dev);
                     }

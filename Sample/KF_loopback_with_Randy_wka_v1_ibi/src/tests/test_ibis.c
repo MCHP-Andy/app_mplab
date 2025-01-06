@@ -24,6 +24,9 @@
 #include "definitions.h"
 #include "debug/trace.h"
 
+uint8_t buff[1000][4];
+uint16_t cnt =0;
+
 static int target_5a_ibi_cb(struct i3c_device_desc *target, struct i3c_ibi_payload *payload)
 {
     int ret = 0, i = 0;
@@ -38,13 +41,24 @@ static int target_5a_ibi_cb(struct i3c_device_desc *target, struct i3c_ibi_paylo
     if(payload->payload_len) {
         // LOG_DBG("M:RxD");
 
-        // for(uint8_t indx=0;indx<payload->payload_len;indx++)
-        //     tracex("0x%x ", payload->payload[indx]);
+        for(uint8_t indx=0;indx<payload->payload_len;indx++)
+            // tracex("0x%x ", payload->payload[indx]);
+            buff[cnt][indx] = payload->payload[indx];
         // tracex("\r\n");
-            // print_buf(&payload->payload[0], payload->payload_len);
-        
-        extern uint16_t ibi_cnt;
-        ibi_cnt++;
+        cnt++;
+        if(cnt==1000)
+        {
+            for(uint16_t ite=0;ite<cnt;ite++)
+            {
+                tracex("%03d: ",ite);
+                for(uint8_t indx=0;indx<4;indx++)
+                {
+                    tracex("0x%x ", buff[ite][indx]);
+                }
+                tracex("\r\n");
+            }
+            cnt =0;
+        }
     }
 
 exit_target_5a_ibi_cb:
@@ -100,23 +114,23 @@ int test_ibis_all(struct device *dev)
     {
         target = &dev_cfg->common.dev_list.i3c[i];
 
-        if (0x046A00000000 == target->pid) {
-            LOG_ERR("Not a simulated device!!");
-            ret = -1;
-            continue;
-        }
+        // if (0x046A00000000 == target->pid) {
+        //     LOG_ERR("Not a simulated device!!");
+        //     ret = -1;
+        //     continue;
+        // }
 
         if(target->dynamic_addr == 0x5a) {
             target->ibi_cb = target_5a_ibi_cb;
         }
         
-        if(target->dynamic_addr == 0x5b) {
-            target->ibi_cb = target_5b_ibi_cb;
-        }
+        // if(target->dynamic_addr == 0x5b) {
+        //     target->ibi_cb = target_5b_ibi_cb;
+        // }
 
-        if(target->dynamic_addr == 0x5c) {
-            target->ibi_cb = target_5c_ibi_cb;
-        }
+        // if(target->dynamic_addr == 0x5c) {
+        //     target->ibi_cb = target_5c_ibi_cb;
+        // }
 
         i3c_ibi_enable(target);
     } 
