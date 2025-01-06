@@ -163,18 +163,18 @@ void TASK2_Tasks ( void )
 {
    
     uint32_t event_bits = 0;
-
+    vTaskDelay(1000 / portTICK_PERIOD_MS );
     while (1)
     {
         switch(task2Context.state)
         {
             case TASK2_STATE_INIT:
-                LOGI(TAG, "=========== TASK2 ==========");
 
 //#ifndef I3C1_AS_HOST             
                 //I3C1 as Secondary Controller or Target
                 LOGI(TAG, "I3C target init Start");
-                tgt_test_xfers_all(i3c1Dev);
+                //tgt_test_xfers_all(i3c1Dev);
+				tgt_test_ibis_all(i3c1Dev);
                 LOGI(TAG, "I3C target init Done\n");
 //                
 //#else
@@ -191,8 +191,8 @@ void TASK2_Tasks ( void )
                 task2Context.state = TASK2_STATE_SERVICE_TASKS;
             break;
             case TASK2_STATE_SERVICE_TASKS:
-               while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c1Dev->data))->events_sem, DRV_IBI_WAIT_MS))
-                // while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&I3C0_DATA.events_sem, DRV_IBI_WAIT_MS))
+              //  while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c1Dev->data))->events_sem, DRV_IBI_WAIT_MS))
+               while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c1Dev->data))->events_sem, OSAL_WAIT_FOREVER))
                 {
                     event_bits = get_event(&task2Context.events, DRV_EVENT_BIT_HANDLE_IBI, true);
                     if(event_bits & DRV_EVENT_BIT_HANDLE_IBI)

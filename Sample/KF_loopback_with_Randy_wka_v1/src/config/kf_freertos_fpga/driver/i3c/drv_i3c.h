@@ -28,7 +28,8 @@
 #include <dma.h>
 
 /* Max number of target devices on the I3C bus */
-#define MAX_TARGETS             32U
+//#define MAX_TARGETS             32U
+#define MAX_TARGETS             1U
 
 /* Max number of devices that can be assigned address using SETDASA */
 #define MAX_TARGETS_SETDASA     16U
@@ -38,7 +39,8 @@
 #define MAX_IBI_LIST_COUNT      10U
 
 #define TGT_RX_DATA_BUF_SIZE    128
-#define MAX_TGT_RX_LIST_COUNT   10U
+// #define MAX_TGT_RX_LIST_COUNT   10U
+#define MAX_TGT_RX_LIST_COUNT   1U
 
 #define MAX_TGT_TX_DATALEN      128
 
