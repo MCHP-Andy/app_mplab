@@ -25,7 +25,7 @@
 #include "debug/trace.h"
 
 uint8_t buff[1000][4];
-uint16_t cnt =0;
+volatile uint16_t ibi_cnt = 0;
 
 static int target_5a_ibi_cb(struct i3c_device_desc *target, struct i3c_ibi_payload *payload)
 {
@@ -39,26 +39,12 @@ static int target_5a_ibi_cb(struct i3c_device_desc *target, struct i3c_ibi_paylo
 
 //    LOG_DBG("Enter [%s] - RxD %d bytes of payload", __FUNCTION__, payload->payload_len);
     if(payload->payload_len) {
-        // LOG_DBG("M:RxD");
 
         for(uint8_t indx=0;indx<payload->payload_len;indx++)
-            // tracex("0x%x ", payload->payload[indx]);
-            buff[cnt][indx] = payload->payload[indx];
-        // tracex("\r\n");
-        cnt++;
-        if(cnt==1000)
-        {
-            for(uint16_t ite=0;ite<cnt;ite++)
-            {
-                tracex("%03d: ",ite);
-                for(uint8_t indx=0;indx<4;indx++)
-                {
-                    tracex("0x%x ", buff[ite][indx]);
-                }
-                tracex("\r\n");
-            }
-            cnt =0;
-        }
+            // buff[ibi_cnt][indx] = payload->payload[indx];
+            memcpy(buff[ibi_cnt], payload->payload, payload->payload_len);
+
+        ibi_cnt++;
     }
 
 exit_target_5a_ibi_cb:

@@ -33,6 +33,8 @@ struct device *tgt_dev = NULL;
 TimerHandle_t tgt_test_sir_ibi_tmr;
 TimerHandle_t tgt_test_mr_ibi_tmr;
 
+uint16_t ibi_data[MAX_NUM_IBI_REQ] = {0};
+
 struct i3c_ibi sir_ibi_mdb_only = {
     .ibi_type = I3C_IBI_TARGET_INTR,
     .payload = &sir_ibi_payload[0],
@@ -62,7 +64,8 @@ struct i3c_ibi mr_ibi = {
     .payload = NULL,
 };
 
-static uint16_t count = 0;
+volatile uint16_t tgt_cnt = 0;
+static volatile uint16_t seed = 1;
 
 void tgt_test_sir_ibi_cb(TimerHandle_t xTimer)
 {
@@ -91,20 +94,20 @@ void tgt_test_sir_ibi_cb(TimerHandle_t xTimer)
 
     xTimerStop(tgt_test_sir_ibi_tmr, 0U);
 #endif
+    tgt_cnt++;
 
-    count++;
-
-    sir_ibi_payload[2] = count >> 8;
-    sir_ibi_payload[1] = count % 0xFF;
+    sir_ibi_payload[2] = seed >> 8;
+    sir_ibi_payload[1] = seed & 0xFF;
+    ibi_data[tgt_cnt-1] = seed++;
     if (0 != DRV_I3C_target_ibi_raise(tgt_dev, &sir_ibi_mdb_3byte_payload))
     {
         LOG_DBG("SIR IBI with MDB + 3 bytes of payload failed!!");
     }
 
-    if(count==MAX_NUM_IBI_REQ)
+    if(tgt_cnt==MAX_NUM_IBI_REQ)
 	{
         xTimerStop(tgt_test_sir_ibi_tmr, 0U);
-		count = 0;
+		// tgt_cnt = 0;
 	}
 }
 

@@ -128,8 +128,11 @@ void TASK4_Initialize ( void )
     See prototype in task4.h.
  */
 
-uint16_t ibi_cnt = 0;
+extern volatile uint16_t tgt_cnt;
+extern uint16_t ibi_data[];
 
+extern volatile uint16_t ibi_cnt;
+extern uint8_t buff[1000][4];
 
 void TASK4_Tasks ( void )
 {
@@ -143,11 +146,25 @@ void TASK4_Tasks ( void )
     LOGI(TAG, "test_ibis_all end\n\n\n");
 
     LOGI(TAG, "tgt_test_ibis_all");
+    tgt_cnt = ibi_cnt = 0;
     tgt_test_ibis_all(i3c1Dev);
     do {
       vTaskDelay(1 / portTICK_PERIOD_MS );
-    } while (ibi_cnt < 1000);    
-    LOGI(TAG, "test_ibis_all cnt: %d", ibi_cnt);
+    } while (ibi_cnt < 1000);
+    LOGI(TAG, "test_ibis_all tgt_cnt: %d", tgt_cnt);
+    LOGI(TAG, "test_ibis_all ibi_cnt: %d", ibi_cnt);
+
+    for(uint16_t ite=0; ite < ibi_cnt; ite++) {
+      // LOGI(TAG, "[%04d]: 0x%02x 0x%02x 0x%02x 0x%02x", ite, buff[ite][0], buff[ite][1], buff[ite][2], buff[ite][3]);
+      uint16_t idx = ((uint16_t)buff[ite][2] << 8) + buff[ite][3];
+
+      if (idx == ibi_data[ite]) {
+        LOGI(TAG, "[%04d]: 0x%02x , idx: %04d, data: %04d", ite+1, buff[ite][0], idx, ibi_data[ite]);
+      } else {
+        LOGE(TAG, "[%04d]: 0x%02x , idx: %04d, data: %04d", ite+1, buff[ite][0], idx, ibi_data[ite]);
+      }
+    }
+    tgt_cnt = ibi_cnt = 0;
     LOGI(TAG, "test_ibis_all end\n\n\n");
 
     while(1)
