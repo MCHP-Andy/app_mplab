@@ -122,7 +122,7 @@ int tgt_test_sir_ibi_init(struct device *dev)
 
     LOG_DBG("pdMS_TO_TICKS(1) %d", pdMS_TO_TICKS(1));
     LOG_DBG("T: send %d IBI", MAX_NUM_IBI_REQ);
-    tgt_test_sir_ibi_tmr = xTimerCreate("TEST_SIR_TMR", pdMS_TO_TICKS(5), pdTRUE, (void*)0, tgt_test_sir_ibi_cb);
+    tgt_test_sir_ibi_tmr = xTimerCreate("TEST_SIR_TMR", pdMS_TO_TICKS(1), pdTRUE, (void*)0, tgt_test_sir_ibi_cb);
     if(tgt_test_sir_ibi_tmr!=NULL)
         xTimerStart(tgt_test_sir_ibi_tmr, 0);
 
