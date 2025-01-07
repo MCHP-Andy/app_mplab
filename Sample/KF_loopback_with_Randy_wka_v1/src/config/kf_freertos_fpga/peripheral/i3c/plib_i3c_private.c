@@ -1485,6 +1485,14 @@ void _i3c_tgt_MRL_MWL_set(struct i3c_xec_regs *regs, uint16_t max_rd_len, uint16
 }
 
 /**
+ * @brief Retrieve target max write length
+ */
+void _i3c_tgt_MWL_set(struct i3c_xec_regs *regs, uint16_t *max_wr_len)
+{
+    *max_wr_len = regs->slv_max_len & 0xFFFF;
+}
+
+/**
  * @brief Returns true if controller updated MRL
  */
 bool _i3c_tgt_MRL_updated(struct i3c_xec_regs *regs)

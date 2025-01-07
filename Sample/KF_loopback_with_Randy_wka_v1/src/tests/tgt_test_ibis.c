@@ -25,10 +25,8 @@
 #include "debug/trace.h"
 #include "timers.h"
 
-#define MAX_NUM_IBI_REQ 1000
-
 extern int DRV_I3C_target_ibi_raise(const struct device *dev, struct i3c_ibi *request);
-uint8_t sir_ibi_payload[4] = {0x2E, 0x01, 0x02, 0x03}; 
+uint8_t sir_ibi_payload[3] = {0x2E, 0x01, 0x02}; 
 struct device *tgt_dev = NULL;
 TimerHandle_t tgt_test_sir_ibi_tmr;
 TimerHandle_t tgt_test_mr_ibi_tmr;
@@ -51,22 +49,13 @@ struct i3c_ibi sir_ibi_mdb_2byte_payload = {
     .payload_len = 3
 };
 
-struct i3c_ibi sir_ibi_mdb_3byte_payload = {
-    .ibi_type = I3C_IBI_TARGET_INTR,
-    .payload = &sir_ibi_payload[0],
-    .payload_len = 4
-};
-
 struct i3c_ibi mr_ibi = {
     .ibi_type = I3C_IBI_CONTROLLER_ROLE_REQUEST,
     .payload = NULL,
 };
 
-static uint16_t count = 0;
-
 void tgt_test_sir_ibi_cb(TimerHandle_t xTimer)
 {
-#if 0
     struct xec_i3c_config *config = (struct xec_i3c_config*)tgt_dev->config;
     
     if(!I3C_TGT_is_dyn_addr_valid(config->regs))
@@ -90,37 +79,15 @@ void tgt_test_sir_ibi_cb(TimerHandle_t xTimer)
     }
 
     xTimerStop(tgt_test_sir_ibi_tmr, 0U);
-#endif
-
-    count++;
-    if(count==MAX_NUM_IBI_REQ)
-	{
-        xTimerStop(tgt_test_sir_ibi_tmr, 0U);
-		count = 0;
-	}
-
-    if (0 != DRV_I3C_target_ibi_raise(tgt_dev, &sir_ibi_mdb_3byte_payload))
-    {
-        LOG_DBG("SIR IBI with MDB + 3 bytes of payload failed!!");
-    }
 }
 
 int tgt_test_sir_ibi_init(struct device *dev)
 {
-    struct xec_i3c_config *config = (struct xec_i3c_config*)dev->config;
-    if(NULL == config) {
+    if(NULL == dev) {
         return -1;
     }
 
-    if(!I3C_TGT_is_dyn_addr_valid(config->regs))
-    {
-        return -1;
-    }
-    LOG_DBG("pdMS_TO_TICKS(1) %d", pdMS_TO_TICKS(1));
-    LOG_DBG("T: send %d IBI", MAX_NUM_IBI_REQ);
-    tgt_test_sir_ibi_tmr = xTimerCreate("TEST_SIR_TMR", pdMS_TO_TICKS(1), pdTRUE, (void*)0, tgt_test_sir_ibi_cb);
-    if(tgt_test_sir_ibi_tmr!=NULL)
-        xTimerStart(tgt_test_sir_ibi_tmr, 0);
+    tgt_test_sir_ibi_tmr = xTimerCreate("TEST_SIR_TMR", pdMS_TO_TICKS(2000), pdFALSE, (void*)0, tgt_test_sir_ibi_cb);
 
     return 0;    
 }
@@ -152,16 +119,7 @@ int tgt_test_ibis_all(struct device *dev)
 
     tgt_dev = dev;
     tgt_test_sir_ibi_init(dev);
-//    tgt_test_mr_ibi_init(dev);
-    
-    // struct xec_i3c_config *config = (struct xec_i3c_config*)tgt_dev->config;
-    // if(!I3C_TGT_is_dyn_addr_valid(config->regs))
-    // {
-    //     return -1;
-    // }
-    // if (0 != DRV_I3C_target_ibi_raise(tgt_dev, &sir_ibi_mdb_3byte_payload))
-    // {
-    //     LOG_DBG("SIR IBI with MDB + 3 bytes of payload failed!!");
-    // }
+    tgt_test_mr_ibi_init(dev);
+
     return ret;
 }

@@ -56,8 +56,8 @@ void PCR_Initialize (void)
     }
 
     /* Configure Processor Clock divide */
-    // PCR_REGS->PCR_PROC_CLK_CTRL = PCR_PROC_CLK_CTRL_DIV(0x4);
-   PCR_REGS->PCR_PROC_CLK_CTRL = PCR_PROC_CLK_CTRL_DIV(0x1);
+    PCR_REGS->PCR_PROC_CLK_CTRL = PCR_PROC_CLK_CTRL_DIV(0x4);
+//    PCR_REGS->PCR_PROC_CLK_CTRL = PCR_PROC_CLK_CTRL_DIV(0x1);
 
     /* Select slow clock divide */
     PCR_REGS->PCR_SLOW_CLK_CTRL = PCR_SLOW_CLK_CTRL_DIV(480);

@@ -367,6 +367,7 @@ void set_event_from_isr(uint32_t *event_id, uint32_t events_to_set)
  */
 void TASK1_Tasks(void)
 {
+    struct dma_main_regs *dma_main_ptr = (struct dma_main_regs *)DMA_MAIN_BLK_BASE_ADDRESS;
     uint32_t event_bits = 0;
 
     while (1)
@@ -374,6 +375,12 @@ void TASK1_Tasks(void)
         switch(task1Context.state)
         {
             case TASK1_STATE_INIT:
+#if (I3C_ENABLE_DMA)
+                LOG_DBG("TASK1: Enable DMA");
+                dma_main_enable(dma_main_ptr);
+#endif 
+               LOGI(TAG, "=========== TASK1 ==========");
+               
                LOGI(TAG, "I3C Master init Start");
                DRV_I3C_Bus_Init(i3c0Dev);
                LOGI(TAG, "I3C Master init Done\n");
@@ -381,7 +388,7 @@ void TASK1_Tasks(void)
                 // test_bcast_ccc_all(i3c0Dev);
                 // test_direct_ccc_all(i3c0Dev);
                 // test_xfers_all(i3c0Dev);
-                test_ibis_all(i3c0Dev);
+                // test_ibis_all(i3c0Dev);
                 // test_icm42605_all(i3c0Dev);
                 // test_xfers_all(i3c0Dev);
                 // LOG_DBG("[%s] - Raise IBI MR", __FUNCTION__);
@@ -391,8 +398,8 @@ void TASK1_Tasks(void)
                 task1Context.state = TASK1_STATE_SERVICE_TASKS;
             break;
             case TASK1_STATE_SERVICE_TASKS:
-                //while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c0Dev->data))->events_sem, DRV_IBI_WAIT_MS))
-                while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c0Dev->data))->events_sem, OSAL_WAIT_FOREVER))
+                //while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c1Dev->data))->events_sem, DRV_IBI_WAIT_MS))
+                while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c0Dev->data))->events_sem, DRV_IBI_WAIT_MS))
                 {
                     event_bits = get_event(&task1Context.events, DRV_EVENT_BIT_HANDLE_IBI | DRV_EVENT_BIT_HANDLE_TGT_RX | DRV_EVENT_BIT_HANDLE_TGT_TX_DONE, true);
                     if(event_bits & DRV_EVENT_BIT_HANDLE_IBI)
