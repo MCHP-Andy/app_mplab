@@ -29,7 +29,7 @@
 
 //Note: Don't Enable Both
 #define I3C_ENABLE_THRESHOLDS_INTR      0
-#define I3C_ENABLE_DMA                  0
+#define I3C_ENABLE_DMA                  1
 
 struct i3c_xec_regs {
     volatile uint32_t dev_ctrl;                  //0x00

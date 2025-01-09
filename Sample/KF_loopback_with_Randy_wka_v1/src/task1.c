@@ -367,7 +367,6 @@ void set_event_from_isr(uint32_t *event_id, uint32_t events_to_set)
  */
 void TASK1_Tasks(void)
 {
-    struct dma_main_regs *dma_main_ptr = (struct dma_main_regs *)DMA_MAIN_BLK_BASE_ADDRESS;
     uint32_t event_bits = 0;
 
     while (1)
@@ -375,10 +374,6 @@ void TASK1_Tasks(void)
         switch(task1Context.state)
         {
             case TASK1_STATE_INIT:
-#if (I3C_ENABLE_DMA)
-                LOG_DBG("TASK1: Enable DMA");
-                dma_main_enable(dma_main_ptr);
-#endif 
                LOGI(TAG, "=========== TASK1 ==========");
                
                LOGI(TAG, "I3C Master init Start");
