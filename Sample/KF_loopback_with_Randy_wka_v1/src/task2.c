@@ -212,8 +212,8 @@ void TASK2_Tasks ( void )
                         LOGI(TAG, "HANDLE TARGET TX DONE!!");
                         DRV_TGT_TX_Done_Task(i3c1Dev);
 
-                        LOGI(TAG, "Prepare data for master");
-                        tgt_test_xfers_all(i3c1Dev);
+                        // LOGI(TAG, "Prepare data for master");
+                        // tgt_test_xfers_all(i3c1Dev);
                     }
                 }
             default:

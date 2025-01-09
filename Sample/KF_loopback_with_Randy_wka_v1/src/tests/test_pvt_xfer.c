@@ -101,16 +101,16 @@ uint8_t txd_cust[TEST_LEN];
 uint8_t rxd_cust[TEST_LEN];
 #endif
 
-// #if I3C_ENABLE_DMA
-// uint8_t tx_max[4096] = {0};
-// #else
-// uint8_t tx_max[128] = {0};
-// #endif
-#define WRITE_SIZE 512
-//#define READ_SIZE 576 //Introspect python script not allow to increase the size beyond this 
-#define READ_SIZE 512
-uint8_t txd[WRITE_SIZE];
-uint8_t rxd1[READ_SIZE];
+#if I3C_ENABLE_DMA
+#define DATA_SIZE 4096
+#else
+#define DATA_SIZE 512
+#endif
+#define WRITE_SIZE DATA_SIZE
+#define READ_SIZE DATA_SIZE
+// static uint8_t buff[WRITE_SIZE];
+static uint8_t *txd = NULL;
+static uint8_t *rxd1 = NULL;
 
 int test_xfers_all(struct device *dev)
 {
@@ -118,19 +118,31 @@ int test_xfers_all(struct device *dev)
     uint8_t num_i3c_tgts = dev_cfg->common.dev_list.num_i3c;
     struct i3c_device_desc *target = NULL;
     int i = 0, ret = 0;
-//    uint8_t txd[MAX_TARGETS][20] = {
-//        {0x8b, 0x23, 0x49, 0xec, 0x09, 0x64, 0x18, 0xeb, 0x84, 0x4f, 0x8b, 0x23, 0x49, 0xec, 0x09, 0x64, 0x18, 0xeb, 0x84, 0x4f},
-//        {0x4b, 0x7f, 0x73, 0x66, 0x7d, 0x13, 0x69, 0x25, 0xb4, 0xbf, 0x8b, 0x23, 0x49, 0xec, 0x09, 0x64, 0x18, 0xeb, 0x84, 0x4f},
-//    };
-
-    // for (i=0; i<WRITE_SIZE; i++) {
-    //     txd[i] = 0xDE;
-    // } 
-
-//    uint8_t rxd[MAX_TARGETS][READ_SIZE];
     bool pec_en = false;
     //bool hdr_en = true;
     bool hdr_en = false;
+
+    if (txd == NULL) {
+        LOG_DBG("txd pvPortMalloc");
+        txd = pvPortMalloc(WRITE_SIZE);
+
+        if (txd == NULL) {
+            LOG_DBG("txd pvPortMalloc Error!");
+            return -1;
+        }
+    }
+
+    if (rxd1 == NULL) {
+        LOG_DBG("rxd1 pvPortMalloc");
+        rxd1 = pvPortMalloc(READ_SIZE);
+
+        if (rxd1 == NULL) {
+            LOG_DBG("rxd1 pvPortMalloc Error!");
+            vPortFree(txd);
+            return -1;
+        }
+    }
+    
 
 #ifdef TEST_THRESHOLD_INTR
     for (i=0; i<TEST_LEN; i++) {
@@ -157,10 +169,9 @@ int test_xfers_all(struct device *dev)
         print_buf(&rxd_cust[0], TEST_LEN);        
         // while(1);
 #else
-        LOG_DBG("Master write to target:");
-
-        for (size_t i = 0; i < sizeof(txd); i++)
-            txd[i] = i/16;
+        LOG_DBG("Master: write %d bytes to target", WRITE_SIZE);
+        for (size_t i = 0; i < WRITE_SIZE; i++)
+            txd[i] = i % 0x100; //fill 0x00-0xff
         ret = test_private_write(target, &txd[0], WRITE_SIZE, pec_en, hdr_en);
 
         if (ret < 0) {
@@ -185,17 +196,15 @@ int test_xfers_all(struct device *dev)
             continue;
         }
 
-        LOG_DBG("Master read from target:");
-        // ret = test_private_read(target, &rxd[i%2][0], 10, pec_en, hdr_en);
-        // print_buf(&rxd[i%2][0], 10);
+        memset(rxd1, 0x00, READ_SIZE);
+
+        LOG_DBG("Master: received %d bytes from target", READ_SIZE);
         ret = test_private_read(target, &rxd1[0], READ_SIZE, pec_en, hdr_en);
         print_buf(&rxd1[0], READ_SIZE);
         LOG_DBG("\r\n");
     }
 
-    for(i=0; i<num_i3c_tgts; i++) {
-        memset(rxd1, 0x00, READ_SIZE);
-    }
+    memset(rxd1, 0x00, READ_SIZE);
     
     // for(i=0; i<num_i3c_tgts; i++)
     // {
@@ -210,7 +219,10 @@ int test_xfers_all(struct device *dev)
     //     ret = test_private_write_read(target, &txd[i%2][0], 10, &rxd[i%2][0], 10, pec_en, hdr_en);
     //     print_buf(&rxd[i%2][0], 10);
     // }
-#endif    
+#endif
+
+    vPortFree(txd);
+    vPortFree(rxd1);
 
     return ret;
 }
