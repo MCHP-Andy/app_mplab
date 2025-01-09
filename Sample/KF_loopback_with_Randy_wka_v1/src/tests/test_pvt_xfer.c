@@ -101,11 +101,16 @@ uint8_t txd_cust[TEST_LEN];
 uint8_t rxd_cust[TEST_LEN];
 #endif
 
-#if I3C_ENABLE_DMA
-uint8_t tx_max[4096] = {0};
-#else
-uint8_t tx_max[128] = {0};
-#endif
+// #if I3C_ENABLE_DMA
+// uint8_t tx_max[4096] = {0};
+// #else
+// uint8_t tx_max[128] = {0};
+// #endif
+#define WRITE_SIZE 512
+//#define READ_SIZE 576 //Introspect python script not allow to increase the size beyond this 
+#define READ_SIZE 512
+uint8_t txd[WRITE_SIZE];
+uint8_t rxd1[READ_SIZE];
 
 int test_xfers_all(struct device *dev)
 {
@@ -113,11 +118,16 @@ int test_xfers_all(struct device *dev)
     uint8_t num_i3c_tgts = dev_cfg->common.dev_list.num_i3c;
     struct i3c_device_desc *target = NULL;
     int i = 0, ret = 0;
-    uint8_t txd[MAX_TARGETS][10] = {
-        {0x8b, 0x23, 0x49, 0xec, 0x09, 0x64, 0x18, 0xeb, 0x84, 0x4f},
-        {0x4b, 0x7f, 0x73, 0x66, 0x7d, 0x13, 0x69, 0x25, 0xb4, 0xbf},
-    };
-    uint8_t rxd[MAX_TARGETS][10];
+//    uint8_t txd[MAX_TARGETS][20] = {
+//        {0x8b, 0x23, 0x49, 0xec, 0x09, 0x64, 0x18, 0xeb, 0x84, 0x4f, 0x8b, 0x23, 0x49, 0xec, 0x09, 0x64, 0x18, 0xeb, 0x84, 0x4f},
+//        {0x4b, 0x7f, 0x73, 0x66, 0x7d, 0x13, 0x69, 0x25, 0xb4, 0xbf, 0x8b, 0x23, 0x49, 0xec, 0x09, 0x64, 0x18, 0xeb, 0x84, 0x4f},
+//    };
+
+    // for (i=0; i<WRITE_SIZE; i++) {
+    //     txd[i] = 0xDE;
+    // } 
+
+//    uint8_t rxd[MAX_TARGETS][READ_SIZE];
     bool pec_en = false;
     //bool hdr_en = true;
     bool hdr_en = false;
@@ -148,11 +158,10 @@ int test_xfers_all(struct device *dev)
         // while(1);
 #else
         LOG_DBG("Master write to target:");
-        // ret = test_private_write(target, &txd[i%2][0], 10, pec_en, hdr_en);
 
-        for (size_t i = 0; i < sizeof(tx_max); i++)
-            tx_max[i] = i/16;
-        ret = test_private_write(target, tx_max, sizeof(tx_max), pec_en, hdr_en);
+        for (size_t i = 0; i < sizeof(txd); i++)
+            txd[i] = i/16;
+        ret = test_private_write(target, &txd[0], WRITE_SIZE, pec_en, hdr_en);
 
         if (ret < 0) {
             LOG_ERR("test_private_write error: %d", ret);
@@ -177,28 +186,30 @@ int test_xfers_all(struct device *dev)
         }
 
         LOG_DBG("Master read from target:");
-        ret = test_private_read(target, &rxd[i%2][0], 10, pec_en, hdr_en);
-        print_buf(&rxd[i%2][0], 10);
+        // ret = test_private_read(target, &rxd[i%2][0], 10, pec_en, hdr_en);
+        // print_buf(&rxd[i%2][0], 10);
+        ret = test_private_read(target, &rxd1[0], READ_SIZE, pec_en, hdr_en);
+        print_buf(&rxd1[0], READ_SIZE);
         LOG_DBG("\r\n");
     }
 
     for(i=0; i<num_i3c_tgts; i++) {
-        memset(&rxd[i%2][0], 0x00, 10);
+        memset(rxd1, 0x00, READ_SIZE);
     }
     
-    for(i=0; i<num_i3c_tgts; i++)
-    {
-        target = &dev_cfg->common.dev_list.i3c[i];
+    // for(i=0; i<num_i3c_tgts; i++)
+    // {
+    //     target = &dev_cfg->common.dev_list.i3c[i];
 
-        if (0x046A00000000 == target->pid) {
-            LOG_ERR("Not a simulated device!!");
-            ret = -1;
-            continue;
-        }
-        LOG_DBG("Master write/read to/from target:");
-        ret = test_private_write_read(target, &txd[i%2][0], 10, &rxd[i%2][0], 10, pec_en, hdr_en);
-        print_buf(&rxd[i%2][0], 10);
-    }
+    //     if (0x046A00000000 == target->pid) {
+    //         LOG_ERR("Not a simulated device!!");
+    //         ret = -1;
+    //         continue;
+    //     }
+    //     LOG_DBG("Master write/read to/from target:");
+    //     ret = test_private_write_read(target, &txd[i%2][0], 10, &rxd[i%2][0], 10, pec_en, hdr_en);
+    //     print_buf(&rxd[i%2][0], 10);
+    // }
 #endif    
 
     return ret;
