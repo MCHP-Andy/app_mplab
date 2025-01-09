@@ -145,7 +145,7 @@ static int tgt_test_xfer_controller_read(struct device *dev)
     }
     
     for (int i = 0; i < DATA_SIZE; i++) {
-        tx_buff[i] = i%0x100;//fill 0x00-0xff
+        tx_buff[i] = i/16;
     }
 
     // DRV_I3C_target_tx_write(dev, tx_buff, 2);
