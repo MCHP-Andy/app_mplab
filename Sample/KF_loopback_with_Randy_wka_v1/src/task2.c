@@ -159,6 +159,8 @@ void task2_state_switch(TASK2_STATES state)
     See prototype in task2.h.
  */
 
+#define I3C_TGT i3c1Dev
+
 void TASK2_Tasks ( void )
 {
    
@@ -174,46 +176,46 @@ void TASK2_Tasks ( void )
 //#ifndef I3C1_AS_HOST             
                 //I3C1 as Secondary Controller or Target
                 LOGI(TAG, "I3C target init Start");
-                tgt_test_xfers_all(i3c1Dev);
+                tgt_test_xfers_all(I3C_TGT);
                 LOGI(TAG, "I3C target init Done\n");
 //                
 //#else
 //                //I3C1 as host
-//                DRV_I3C_Bus_Init(i3c1Dev);
+//                DRV_I3C_Bus_Init(I3C_TGT);
 //                
-//                // test_bcast_ccc_all(i3c1Dev);
-//                // test_direct_ccc_all(i3c1Dev);
-//                 //test_xfers_all(i3c1Dev);
-//                // test_ibis_all(i3c1Dev);
-//                // test_icm42605_all(i3c1Dev);
-//                 test_xfers_all(i3c1Dev);
+//                // test_bcast_ccc_all(I3C_TGT);
+//                // test_direct_ccc_all(I3C_TGT);
+//                 //test_xfers_all(I3C_TGT);
+//                // test_ibis_all(I3C_TGT);
+//                // test_icm42605_all(I3C_TGT);
+//                 test_xfers_all(I3C_TGT);
 //#endif                  
                 task2Context.state = TASK2_STATE_SERVICE_TASKS;
             break;
             case TASK2_STATE_SERVICE_TASKS:
-               while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(i3c1Dev->data))->events_sem, DRV_IBI_WAIT_MS))
+               while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&((struct xec_i3c_data *)(I3C_TGT->data))->events_sem, DRV_IBI_WAIT_MS))
                 // while(OSAL_RESULT_TRUE == OSAL_SEM_Pend(&I3C0_DATA.events_sem, DRV_IBI_WAIT_MS))
                 {
                     event_bits = get_event(&task2Context.events, DRV_EVENT_BIT_HANDLE_IBI, true);
                     if(event_bits & DRV_EVENT_BIT_HANDLE_IBI)
                     {
                         LOGI(TAG, "HANDLE IBI!!");
-                        DRV_IBI_Task(i3c1Dev);
+                        DRV_IBI_Task(I3C_TGT);
                     }
                     
                     if(event_bits & DRV_EVENT_BIT_HANDLE_TGT_RX)
                     {
                         LOGI(TAG, "HANDLE TARGET RX!!");
-                        DRV_TGT_RX_Task(i3c1Dev);
+                        DRV_TGT_RX_Task(I3C_TGT);
                     }
                     
                     if(event_bits & DRV_EVENT_BIT_HANDLE_TGT_TX_DONE)
                     {
                         LOGI(TAG, "HANDLE TARGET TX DONE!!");
-                        DRV_TGT_TX_Done_Task(i3c1Dev);
+                        DRV_TGT_TX_Done_Task(I3C_TGT);
 
                         // LOGI(TAG, "Prepare data for master");
-                        // tgt_test_xfers_all(i3c1Dev);
+                        // tgt_test_xfers_all(I3C_TGT);
                     }
                 }
             default:
