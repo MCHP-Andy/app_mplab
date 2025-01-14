@@ -374,7 +374,7 @@ void I3C_Sec_Host_Config(struct i3c_xec_regs *regs)
     _i3c_sec_host_dma_fsm_enable(regs);
 #endif            
 
-    _i3c_sec_host_port_set(regs, SEC_HOST_CFG_PORT_SEL_I3C0);
+    _i3c_sec_host_port_set(regs, SEC_HOST_CFG_PORT_SEL_I3C2);
 
     _i3c_sec_host_stuck_sda_scl_config(regs, SEC_HOST_CFG_STUCK_SDA_SCL_DISABLE, 0xFFFFU, 0xFFFFU);
 
